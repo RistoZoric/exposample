@@ -1,0 +1,339 @@
+section.Blog1slider {
+    width: 100%;
+    padding: 130px 0px 100px 0px;
+    background: url(../img//blog1.png);
+    background-size: cover;
+    z-index: -1;
+
+}
+
+.chkra1.col-lg-2 span {
+    font-size: 47px;
+    white-space: nowrap;
+}
+.chkra1.col-lg-2 img {
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+}
+.chkra3.col-lg-2  img {
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+}
+.rightcircle.col-lg-2  img {
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+}
+.chkra1.col-lg-2 h2 {
+    color: #fff;
+    font-size: 17px;
+    border-top: 1px solid #000;
+    width: 57px;
+    margin-top: 13px;
+    font-family: "canela";
+    font-weight: bold;
+}
+.chkra1.col-lg-10 h2 {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Raleway';
+}
+.chkra1.col-lg-10  span {
+    color: #000;
+    margin-left: 5px;
+}
+.chkra1.col-lg-10 a.chakra-text.css-b6uzoi {
+    font-size: 36px;
+    font-family: 'canela';
+    padding: 20px 0px;
+    border: none;
+    font-weight: bold;
+}
+.chkra1.col-lg-10 p {
+    font-size: 17px;
+}
+.chkra1.col-lg-10 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    border-bottom: 2px solid #fff;
+}
+.chkra2.col-lg-12 {
+    margin-top: 15px;
+}
+
+.blog2.col-lg-6 {
+    padding-left: 100px;
+}
+.chkra3.col-lg-10 h2 {
+    color: #fff;
+    font-size: 12px;
+    float: left;
+    border-right: 1px solid #000;
+    margin-right: 15px;
+}
+.chkra3.col-lg-10  a.chakra-text.css-1uuv0md {
+    font-size: 36px;
+    font-family: 'canela';
+    color: #fff;
+    font-weight: bold;
+}
+.chkra3.col-lg-10 h3 {
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Raleway';
+    padding-bottom: 10px;
+}
+.chkra3.col-lg-10 span {
+    color: #000;
+    margin-right: 5px;
+    font-family: 'Raleway';
+}
+.chkra3.col-lg-10 h1 {
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+}
+.chkra3.col-lg-10 p {
+    font-size: 17px;
+    color: #000;
+}
+.chkra4.col-lg-8 {
+    border-top: 4px double #000;
+    margin-top: 40px;
+}
+.chkra4.col-lg-8 h4 {
+    padding-top: 20px;
+    font-size: 12px;
+    float: left;
+    margin-right: 20px;
+    font-family: 'Raleway';
+}
+.chkra4.col-lg-8 h5 {
+    padding-top: 18px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Raleway';
+    padding-bottom: 10px;
+}
+.chkra4.col-lg-8 a.chakra-text.css-f0lbso {
+    font-size: 16px;
+    color: #000;
+    font-family: 'canela';
+    text-decoration: none;
+}
+.chkra31.col-lg-10 img {
+    width: 100%;
+}
+.rightcircle.col-lg-2{
+    margin-top: 40px;
+}
+
+
+.chkra3.col-lg-8 h4 {
+    padding-top: 20px;
+    font-size: 12px;
+    float: left;
+    margin-right: 20px;
+    font-family: 'Raleway';
+}
+.chkra3.col-lg-8 {
+    padding-top: 17px;
+}
+.chkra3.col-lg-8 a.chakra-text.css-f0lbso  {
+    font-size: 16px;
+    color: #000;
+    font-family: 'canela';
+    text-decoration: none;
+    
+}
+.chkra3.col-lg-8 h5 {
+    padding-top: 18px;
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+/* ----------section latest---------- */
+.row.post1.my-5 {
+    border-bottom: 1px solid #00000036;
+    padding: 30px 0px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.row.post1.my-5:nth-last-of-type(2){
+   border: none !important;
+}
+section.latest {
+    background: #F6F6F8;
+    padding: 80px 0px;
+}
+.loadmore {
+    margin-top: 10px;
+}
+.loadmore h2 {
+    text-align: center;
+    font-size: 16px;
+    color: #A1A1A1;
+}
+.latestpost h4 {
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    font-family: 'canela';
+    color: #000;
+}
+.latestpost h4::before {
+    content: '';
+    font-size: 10px;
+    width: 45%;
+    height: 1px;
+    position: absolute;
+    background: #000;
+    left: 0%;
+    bottom: 45%;
+}
+.latestpost h4::after {
+    content: '';
+    font-size: 10px;
+    width: 45%;
+    height: 1px;
+    position: absolute;
+    background: #000;
+    bottom: 45%;
+    right: 0%;
+}
+
+.post1.col-lg-4.py-5 h1 {
+    font-size: 12px!important;
+    color: #000;
+    float: left;
+    margin-right: 10px;
+    border-right: 1px solid #000;
+    padding-right: 10px;
+    font-family: 'Raleway';
+}
+.post1.col-lg-4.py-5 button {
+    border: none;
+    background: none;
+    font-size: 13px;
+    color: #80CAE5;
+    font-family: 'Raleway';
+    font-weight: bold;
+    padding: 0px;
+    position: relative;
+}
+.post1.col-lg-4.py-5 button::after {
+    content: '';
+    position: absolute;
+    font-size: 10px;
+    width: 28px;
+    background: #000;
+    height: 1px;
+    left: 0;
+    top: 20px;
+}
+.post1.col-lg-4.py-5 span {
+    color: #A1A1A1;
+    margin-right: 10px;
+}
+.post1.col-lg-4.py-5  h3 {
+    font-family: 'canela';
+    font-size: 36px;
+}
+.post1.col-lg-4.py-5 h2 {
+    font-size: 12px;
+    color: #A1A1A1;
+   font-family: raleway;
+}
+.post1.col-lg-4.py-5 p {
+    font-size: 17px;
+    color: #7D7D7D;
+}
+.post1.col-lg-4 img{
+    width: 100%;
+}
+
+
+
+/* -------------media querry----------------- */
+/* ----------mobile------------- */
+@media only screen and (max-width: 480px) {
+    .di1 {order :2}
+    .di2 {order :1}
+    .di3 {order :3}
+    .post1.col-lg-4.py-5.di3 {
+        padding: 0px 15px!important;
+    }
+    .chkra2.col-lg-12 img {
+        width: 100%;
+    }
+    .blog2.col-lg-6 {
+        display: none;
+    }
+    .latestpost h4::before{
+        width: 35%;
+    }
+    .latestpost h4::after{
+        width: 35%;
+    }
+    .chkra1.col-lg-2 {
+        float: left;
+        width: 20%;
+    }
+    .chkra1.col-lg-10 {
+        width: 80%;
+        float: left;
+        padding: 0px 15px;
+    }
+    .latest .container{
+        padding: 0px 20px;
+    }
+    .latest .container .row .py-5{
+        padding: 10px !important;
+    }
+    .latest .container .row .col-lg-4 img{
+        margin-bottom: 10px;
+    }
+    .latest .container .row .col-lg-4 h3{
+        margin-top: 10px;
+    }
+    .row.post1.my-5{
+        border: none !important;
+    }
+    section.latest{
+        padding: 50px 0px;
+    }
+}
+
+/* ----------tablet------------- */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .di1 {order :2}
+    .di2 {order :1}
+    .di3 {order :3}
+    .chkra2.col-lg-12 img {
+        width: 100%;
+    }
+    .blog2.col-lg-6 {
+        display: none;
+    }
+    .latestpost h4::before{
+        width: 35%;
+    }
+    .latestpost h4::after{
+        width: 35%;
+    }
+}
+
+/* ----------tablet------------- */
+@media only screen and (min-width: 768px)  and (max-width:1024px){
+
+}
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  
+{ }
+/* -------------media querry----------------- */

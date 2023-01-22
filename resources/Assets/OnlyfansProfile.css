@@ -1,0 +1,400 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../img/CANELA-REGULAR.TTF);
+}
+
+@font-face {
+    font-family: canelaBold;
+    src: url(../img/CANELA-BOLD.TTF);
+}
+
+h1 {
+    font-family: canelaBold;
+}
+.edit_profileTop {
+    padding: 100px 0px;
+    background: #FDFDFF;
+}
+.edit_sides {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner_edit_sidetwo {
+    display: flex;
+    text-align: center;
+    margin-top: -100px;
+    justify-content: center;
+}
+
+.inner_edit_three {
+    padding: 0px 60px;
+}
+
+.edit_sideOne {
+    text-align: center;
+    width: 30%;
+}
+
+.edit_againNew {
+    width: 70%;
+    padding-top: 40px;
+}
+
+.edit_twoNew {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit_sideTwo a,
+.edit_sideOne a,
+.fav_top a {
+    color: #5EBCDE;
+    font-weight: 300;
+    font-size: 18px;
+}
+.edit_sideTwo h1 {
+    color: #9DD6EB;
+    font-weight: bold;
+    font-family: raleway;
+    font-size: 39px;
+}
+.inner_edit_three h2 {
+    font-size: 83px;
+    font-weight: bold;
+    color: #9DD6EB;
+    font-family: 'Raleway', sans-serif;
+}
+.inner_edit_three span {
+    font-size: 20px;
+    color: #9DD6EB;
+    font-weight: bold;
+}
+
+.edit {
+    width: 100%;
+    background: #80CAE5;
+    border: none;
+    color: #fff;
+    border-radius: 16px;
+    padding: 2px 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.favourites {
+    background: none;
+    padding: 2px 0px;
+    border: 1px solid #9DD6EB;
+    width: 100%;
+    color: #9DD6EB;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.favourites svg{
+    margin-right: 5px;
+}
+
+/* next */
+.second_profile {
+    background: #eee;
+}
+
+.edit_Inf {
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+
+.personal_info {
+    width: 70%;
+}
+
+.my_fav {
+    width: 30%;
+}
+
+.personal_info h1, 
+.my_fav h1 {
+    font-size: 25px;
+    color: #80CAE5;
+    font-weight: 400;
+    font-family: raleway;
+}
+
+.fav_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.onlyfans_form label {
+    margin: 20px 0px;
+    font-size: 18px;
+    width: 20%;
+    color: #1e3a56;
+}
+.onlyfans_form label.gnc {
+    width: 15%;
+}
+
+label.male {
+    width: 7%;
+}
+input#male {
+    margin-right: 10px;
+}
+input#female {
+    margin-right: 10px;
+}
+.onlyfans_form {
+    margin-top: 50px;
+}
+#fname,
+ #datemin,
+ #mail,
+ #pswd, 
+ #cityg {
+    width: 70%;
+    border: 2px solid #D2D2D2;
+    background: no-repeat;
+    padding: 15px 25px;
+    outline: none;
+    color: #707070;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+input#datemin {
+    text-transform: uppercase;
+}
+#save_p {
+    background: #80CAE5;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    width: 25%;
+    border-radius: 30px;
+    color: #fff;
+    outline: none;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+input#profile_search {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+    box-shadow: 0px 3px 4px 0px #cecece;
+    position: relative;
+    color: #DFE0E4;
+}
+
+.profile_searchBtn svg {
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 16px;
+    color: #5EBCDE;
+    cursor: pointer;
+}
+.profile_searchBtn {
+    margin: 25px 0px;
+}
+
+.profile_creator {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.favourites_two {
+    background: none;
+    border: none;
+    width: 100%;
+    color: #5EBCDE;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding-right: 10px;
+}
+.profile_image_side {
+    margin-right: 20px;
+}
+.profile_creator h6 {
+    font-size: 12px;
+    color: #383a43;
+    font-weight: bold;
+    padding-top: 15px;
+    font-family: 'Raleway';
+}
+
+.profile_content_side {
+    width: 100%;
+}
+.profile_content_side p svg {
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 2px;
+    margin-right: 6px;
+}
+
+.profile_content_side p {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.profile_content_side b {
+    font-weight: 300;
+}
+
+.favourites3 {
+    float: right;
+}
+
+@media only screen and (max-width: 991px) {
+    .edit_sides {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0px 0px 0px;
+    }
+    .edit_profileImage{
+        padding: 0px 20px;
+    }
+    .edit_profileTop {
+        padding: 50px 0px;
+    }
+
+    .edit_twoNew {
+        flex-direction: column;
+    }
+
+    .inner_edit_sidetwo {
+       margin: 0px;
+    }
+
+    .favourites,
+    .edit {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .edit_sideOne {
+        width: 50%;
+    }
+
+    .edit_againNew {
+        width: 50%;
+    }
+
+    .edit_profileImage img {
+        width: 100%;
+    }
+    .edit_Inf {
+        flex-direction: column;
+        padding: 45px 10px;
+    }
+
+    .personal_info {
+        width: 100%;
+    }
+
+    .my_fav {
+        width: 100%;
+    }
+    #save_p {
+        padding: 5px;
+        width: 40%;
+        margin-bottom: 30px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .onlyfans_form label {
+        font-size: 13px;
+        width: 30%;
+    }
+
+    #fname,
+    #datemin,
+    #mail,
+    #pswd,
+    #cityg {
+        padding: 6px;
+        font-size: 15px;
+    }
+
+    .inner_edit_three {
+        padding: 0px 20px;
+    }
+
+    .edit_sideTwo h1 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
+    .inner_edit_three h2 {
+        font-size: 42px;
+        margin-top: 40px;
+    }
+
+    .profile_creator h6 {
+        font-size: 14px;
+    }
+
+    .profile_creator p {
+        font-size: 13px;
+    }
+
+    .edit_sideTwo span {
+        padding-bottom: 10px;
+    }
+    .edit {
+        padding: 5px 15px;
+        border-radius: 5px;
+        width: 70%;
+        margin-top: 10px;
+    }
+    .favourites {
+        width: 70%;
+        display: flex;
+        border-radius: 5px;
+        padding: 5px 6px;
+        align-items: center;
+        border-width: 2px;
+    }
+    .favourites svg{
+        margin-right: 7px;
+    }
+    .edit_sideOne a span{
+        font-size: 14px;
+    }
+    .edit_sideTwo a span{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .inner_edit_three{
+        width: 33%;
+    }
+    .inner_edit_three span{
+        font-size: 14px;
+    }
+    label.male{
+        width: 15%;
+    }
+    .personal_info h1, .my_fav h1{
+        font-size: 16px;
+    }
+    .edit_sideTwo a, .edit_sideOne a, .fav_top a{
+        font-size: 16px;
+    }
+    .onlyfans_form{
+        margin-top: 5px;
+    }
+}

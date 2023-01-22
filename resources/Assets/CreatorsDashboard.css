@@ -1,0 +1,362 @@
+.dash.heading h1 {
+    color: #6D7783;
+    font-family: raleway;
+    font-size: 16px;
+    font-weight: bold;
+}
+section.accordin_area {
+    background: #f4f4f4;
+}
+
+.dashheading.row {
+    padding: 40px 0px;
+}
+
+.threeDays {
+    display: flex;
+    justify-content: flex-end;
+}
+.threeDays h1 {
+    border: 1px solid #707070;
+    font-size: 15px;
+    color: #6D7783;
+    font-family: raleway;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 40px;
+}
+.threeDays h1:hover{
+    background-color: #80CAE5;
+    color: #fff;
+}
+.HomeDash {
+    background: #5EBCDE;
+    border-radius: 20px;
+    padding: 20px 20px;
+    width: 30%;
+    margin-right: 30px;
+    height: 370px;
+}
+.HomeDash ul {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+}
+.HomeDash li {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+.HomeDash a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+.HomeDash2.col-lg-12 {
+    background: #fff;
+    padding: 30px 30px;
+    border-radius: 15px;
+}
+
+.HomeDash2 h1 {
+    font-size: 15px;
+    font-family: raleway;
+    color: #9EA1B2;
+    font-weight: 400;
+}
+.accordinheading {
+    padding-bottom: 20px;
+}
+.accordinheading h1 {
+    font-size: 15px;
+    font-family: raleway;
+    color: #9EA1B2;
+    font-weight: 600;
+}
+.accordin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.accordin1 {
+    width: 15%;
+}
+.accordin2 {
+    width: 30%;
+}
+.accordin3 {
+    width: 50%;
+}
+.accordin3 p {
+    font-size: 13px;
+    color: #9EA1B2;
+    font-family: raleway;
+}
+
+.accordion-item {
+    border: none;
+}
+button.accordion-button.collapsed {
+    padding: 0px;
+}
+
+/* -----accordins2------------------ */
+.HomeDash3.col-lg-12 {
+    margin: 50px 0px;
+    background: #fff;
+    padding: 25px 10px;
+    border-radius: 15px;
+}
+
+.according {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.accordin5 {
+    width: 10%;
+}
+.accordin5 h1 {
+    font-size: 16px;
+    font-family: 'Raleway';
+    color: #272727;
+    text-align: center;
+}
+.accordin6 {
+    width: 10%;
+}
+.accordin6 h2 {
+    font-size: 16px;
+    font-family: 'Raleway';
+    color: #ADADAD;
+}
+.accordin9 {
+    width: 10%;
+}
+.accordin9 button {
+    background: #80CAE5;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.accordin10 button {
+    border: none;
+    background: transparent;
+}
+.accordin8 {
+    width: 5%;
+}
+
+.accordin10 {
+    width: 5%;
+}
+.row.latestReview {
+    padding-bottom: 30px;
+}
+.latestReview h1 {
+    font-size: 16px;
+    font-family: 'Raleway';
+}
+.latestReview2.col-lg-6 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 32px;
+}
+.latestReview2 svg {
+    background: #80cae5;
+    width: 11%;
+    height: 29px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.latestReview.col-lg-6 {
+    padding: 10px 32px;
+}
+.button_bottom {
+    text-align: center;
+}
+.button_bottom button {
+    background: #80cae5;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.button_bottom svg {
+    margin-left: 10px;
+}
+.accordinend svg {
+    margin-bottom: 40px;
+}
+
+.newhide {
+    display: none;
+}
+.outer_status {
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .HomeDash.col-lg-4 {
+        display: none;
+    }
+    .dashheading.row {
+        display: none;
+    }
+    .HomeDash2.col-lg-12 {
+        margin: 10px 0px;
+    }
+    .newhide {
+        display: block;
+        width: 100%;
+        margin: 10px 0px;
+        background: #80cae5;
+        border-radius: 15px;
+        padding: 25px 25px;
+    }
+    .newhide h1 {
+        font-size: 15px;
+        font-family: 'Raleway';
+        color: #fff;
+        padding: 10px 0px;
+    }
+    .newhide p {
+        font-size: 10px;
+        color: #fff;
+    }
+    .outer_status {
+        display: block;
+        background: #fff;
+        box-shadow: 10px 10px 20px 2px rgb(0 0 0 / 20%);
+        border-radius: 15px;
+        padding: 15px 20px;
+        margin: 20px 0px;
+    }
+    .outer_status h3 {
+        font-size: 14px;
+        font-family: raleway;
+    }
+    .inivitation_status {
+         display: flex;
+    }
+    .inivitation_status3 {
+        flex: 1;
+        text-align: right;
+    }
+    .inivitation_status2 h4 {
+        font-size: 16px;
+        font-family: raleway;
+        color: #0F3F62;
+        margin-bottom: 0px;
+    }
+    .inivitation_status2 p {
+        font-size: 12px;
+        color: #8f9595;
+    }
+    .inivitation_status1 {
+        margin-right: 10px;
+    }
+    .inivitation_status3 button {
+        border: none;
+        background: #80CAE5;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        padding: 3px 15px;
+        border-radius: 14px;
+    }
+  
+
+    .accordin1 {
+        width: 17%;
+    }
+    .HomeDash2 h1{
+        font-size: 8px;
+        margin-bottom: 0px;
+    }
+    .accordin2 {
+        width: 40%;
+    }
+    .accordin2 img {
+        width: 100%;
+    }
+    .accordin3 {
+        width: 80%;
+    }
+    .accordin3 p {
+    font-size: 8px;
+    margin-bottom: 0px;
+    }
+    .accordinend svg{
+        margin-bottom: 0px;
+    }
+    .HomeDash2.col-lg-12 {
+        margin: 10px 0px;
+        padding: 30px 20px;
+    }
+    .latestReview.col-lg-6 {
+        width: 50% !important;
+    }
+    .latestReview2.col-lg-6 {
+        width: 50% !important;
+        padding: 5px 10px;
+    }
+    .latestReview.col-lg-6 {
+        padding: 0px 5px;
+    }
+    .accordin7 img {
+        width: 100%;
+    }
+    .accordin7 {
+        width: 20%;
+    }
+    .accordin6 h2{
+        font-size: 8px;
+    }
+    .accordin5 h1{
+        font-size: 13px;
+    }
+    .accordin9 button {
+
+        padding: 4px 12px;
+         font-size: 10px;
+
+    }
+    .accordin10 button{
+        margin-left: 10px;
+    }
+    .latestReview2 svg{
+        width: 20%;
+    }
+    .HomeDash3.col-lg-12 {
+        padding: 25px 20px;
+
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1092px){
+    .HomeDash.col-lg-4 {
+        display: none;
+    }
+    .dashheading.row {
+        display: none;
+    }
+    .newhide {
+        display: block;
+        width: 100%;
+        margin: 10px;
+        background: #80cae5;
+        border-radius: 15px;
+        padding: 10px 10px;
+    }
+}
+

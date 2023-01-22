@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",(function(){document.body.style.overflow="hidden",setTimeout((function(){document.getElementById("preloader").style.display="none",document.body.style.overflow=null}),500)}));
+//# sourceMappingURL=preloader.js.map

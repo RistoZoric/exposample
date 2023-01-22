@@ -1,0 +1,173 @@
+/* / //premium page// / */
+.premium-title-part h4{
+  color: #80CAE5;
+  font-size: 30px;
+  padding-top: 40px;
+  }
+  .premium-title-part h1{
+    color: #80CAE5;
+    font-size: 86px;
+    }
+.premium-checkbox-part{
+  padding: 50px 0px;
+  padding: 50px 0px;
+  text-align: left;
+  max-width: 400px;
+  margin: auto;
+
+}
+.premium-checkbox-part button {
+  background-color: #80CAE5;
+  border: none;
+  padding: 15px 59px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 38px 0px;
+}
+.premium-checkbox-part icon{
+  color: #5EBCDE;
+  margin-right: 10px;
+}
+.premium-checkbox-part label {
+    color: #171718;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 0px;
+}
+.premium-title-part {
+  text-align: center;
+  background-color: #EDF2F6;
+  border-radius: 30px;
+  margin-top: 85px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+}
+.premium-title-part p {
+    font-size: 14px;
+    color: #171718;
+    position: relative;
+}
+.premium-title-part p::after {
+  content: '';
+  background: #000;
+  position: absolute;
+  left: 29%;
+  bottom: -15px;
+  width: 42%;
+  height: 1px;
+}
+@media screen and (max-width: 480px){
+    .color-part {
+        padding: 80px 0px;
+    }
+    .premium-checkbox-part label{
+        font-size: 14px;
+    }
+  .premium-title-part {
+    text-align: center;
+    background-color: #EDF2F6;
+    border-radius: 30px;
+    margin-top: 50px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+  }
+  .premium-title-part h4{
+    color: #80CAE5;
+    font-size: 30px;
+    padding-top: 40px;
+    }
+    .premium-title-part h1 {
+      color: #80CAE5;
+      font-size: 51px;
+  }
+      .premium-checkbox-part{
+        padding: 50px 0px;
+        padding: 50px 0px;
+        text-align: left;
+        max-width: 453px;
+        margin: auto;
+      
+      }
+      .premium-title-part p {
+        text-align: center;
+        padding: 10px 1px;
+    }
+      .premium-title-part p::after {
+        content: '';
+        background: #000;
+        position: absolute;
+        left: 11%;
+        bottom: -15px;
+        width: 82%;
+        height: 1px;
+    }
+    .premium-checkbox-part {
+        font-size: 14px;
+        margin-left: 40px;
+    }
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+  .premium-checkbox-part{
+    padding: 50px 0px;
+    padding: 50px 0px;
+    text-align: left;
+    max-width: 453px;
+    margin: auto;
+  
+  }
+  .premium-checkbox-part{
+    padding: 50px 0px;
+    padding: 50px 0px;
+    text-align: left;
+    max-width: 453px;
+    margin: auto;
+  
+  }
+  .premium-checkbox-part button {
+    margin: 38px 30px;
+}
+  .premium-title-part {
+    text-align: center;
+    background-color: #EDF2F6;
+    border-radius: 30px;
+    margin-top: 125px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+  }
+  .premium-title-part h4{
+    color: #80CAE5;
+    font-size: 30px;
+    padding-top: 40px;
+    }
+    .premium-title-part h1 {
+      color: #80CAE5;
+      font-size: 51px;
+  }
+      .premium-checkbox-part{
+        padding: 50px 0px;
+        padding: 50px 0px;
+        text-align: left;
+        max-width: 453px;
+        margin: auto;
+      
+      }
+      .premium-title-part p {
+        position: relative;
+        font-size: 15px;
+        padding: 0px 47px 0px 85px;
+        text-align: left;
+    }
+      .premium-title-part p::after {
+        content: '';
+        background: #000;
+        position: absolute;
+        left: 11%;
+        bottom: -15px;
+        width: 82%;
+        height: 1px;
+    }
+    .premium-checkbox-part {
+        font-size: 14px;
+        margin-left: 40px;
+    }
+}

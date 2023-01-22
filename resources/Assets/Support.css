@@ -1,0 +1,97 @@
+.SupportSlider-one {
+    width: 100%;
+    border: 1px solid #707070;
+    padding: 140px 0px;
+    background: linear-gradient(to right,rgb(255, 184, 170) 50%,rgba(255, 184, 170, 0.05) 90%)0% 0% / cover,url(../img/support.jpg) left 400px center no-repeat;
+    background-size: cover;
+    z-index: -1;
+    height: 650px;
+    margin-bottom: 60px;
+  }
+  .Support1 {
+    padding: 100px 0px;
+    text-align: center;
+}
+.Support1 h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.Supportsearch-buttons input#search2 {
+    border: none;
+    color: #757790;
+    outline: none;
+    padding: 30px 30px;
+    width: 55%;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0px 20px 40px #0f11371a;
+}
+section.section {
+    margin-bottom: 60px;
+}
+.Supportsearch-buttons svg {
+    color: #8b8b8b;
+    margin-left: -40px;
+}
+.cat_container {
+    max-width: 800px;
+    padding: 2rem;
+}
+.cat_container h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+ul.blocks-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+}
+.active_cat {
+    border: 1px solid rgba(255, 184, 170, 1) !important;
+}
+.blocks-item {
+    border: 1px solid rgba(255, 184, 170, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgba(255, 184, 170, 1);
+    display: flex;
+    flex: 1 0 340px;
+    margin: 0 0 30px;
+    max-width: 100%;
+    text-align: center;
+    margin: 10px 12px;
+}
+.blocks-item-link {
+    color: rgba(255, 184, 170, 1);
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    justify-content: center;
+    border-radius: inherit;
+    text-decoration: none;
+    font-size: 16px;
+}
+.blocks-item-link:hover{
+    color: rgba(255, 184, 170, 1);
+    
+}
+.cat_icon {
+    width: 50px;
+    margin: 0 auto 20px;
+}
+#cat_reviewer {
+    box-shadow: 0 0 15px 5px rgb(62 60 98 / 8%);
+    border: 0;
+    transition: all 220ms;
+}
+/* #cat_creator:hover, #cat_creator:focus, #cat_creator:active, #cat_reviewer:hover, #cat_reviewer:focus, #cat_reviewer:active {
+    background-color: transparent;
+    transform: scale(1.045);
+    color: rgba(255, 184, 170, 1);
+} */

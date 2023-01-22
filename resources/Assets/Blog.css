@@ -1,0 +1,436 @@
+section.Blogslider {
+    width: 100%;
+    padding: 440px  0px;
+    background: url(../img//review_bg.png);
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+    /* max-height: 95rem; */
+    min-height: 55rem;
+}
+.post_image{
+    /* position: absolute;
+    z-index: 1;
+    width: 67rem;
+    top: 13rem; */
+
+    position: absolute;
+    z-index: 1;
+    width: 63rem;
+    top: 15.5rem;
+    transform: rotate(7.5deg);
+}
+.row.blogHeading {
+    margin-top: 1rem;
+}
+.blog.col-lg-4 h1 {
+    font-size: 70px;
+    color: #fff;
+}
+.blog.col-lg-4 h2 {
+    font-size: 56px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 62px;
+}
+section.blogtwo {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+section.blogtwo {
+    font-size: 17px;
+    color: #7D7D7D;
+}
+.blog-body{
+    background: #fafafa;
+    position: relative;
+    z-index: 2;
+}
+.luana {
+    width: 50%;
+    float: left;
+    margin-top: 35px;
+}
+.luana h3 {
+    font-size: 12px;
+    color: #fff;
+}
+.luana h4 {
+    font-size: 12px;
+    color: #fff;
+}
+.luana img {
+    float: left;
+    margin-right: 10px;
+}
+.blog3.col-lg-4 {
+    display: none;
+}
+.barea {
+    display: inline-block;
+    width: 10%;
+}
+.barea h1, .first-special-character::first-letter {
+    font-size: 80px!important;
+    color: #FFB8AA;
+}
+.barea2 {
+    display: inline-block;
+    width: 100%;
+
+    -webkit-columns: 2;
+    /* Chrome, Safari, Opera */
+    -moz-columns: 2;
+    /* Firefox */
+    columns: 2;
+}
+.inner-bloger-text h3 {
+    font-size: 21px;
+}
+.innertext h1 {
+    font-size: 23px;
+    font-weight: bold; 
+} 
+.blogHeading h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    width: 400px;
+    float: right;
+}
+ 
+.blogger-inner-cap {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 150px;
+    right: 180px;
+}
+.inner-luana {
+    display: inline-flex;
+}
+.inner-luana img {
+    height: 60px;
+    border-radius: 50px;
+}
+.inner-bloger-text {
+    color: white;
+    font-weight: 700;
+    margin: 13px 2px 0 30px;
+}
+.inner-luana-social {
+    color: white;
+    margin: 19px 0px 0 170px;
+    align-items: end;
+    font-weight: 700;
+}
+span.byi {
+    font-weight: 100;
+    margin: 0px; 
+    font-size: 14px;
+}
+
+@media (max-width:767px) {
+    .barea2 {
+        -webkit-columns: 1;
+        /* Chrome, Safari, Opera */
+        -moz-columns: 1;
+        /* Firefox */
+        columns: 1;
+    }
+    .barea h1, .first-special-character::first-letter {
+        font-size: 40px!important;
+    }
+    section.Blogslider {
+        width: 100%;
+        padding: 5px 0px;
+        background: url(../img//review_bg.png);
+        background-size: cover;
+        z-index: -1;
+    
+    }
+    .blogHeading {
+        padding-top: 9px;
+    }
+    
+    
+    .innertext h1{
+        text-align:center;
+        font-weight: 700;
+    } 
+    .blogHeading h1 {
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+        width: 170px;
+        float: right;
+        padding-top: 48px;
+        text-align: end;
+    }
+
+    .blogger-inner-cap {
+        float: right !important;
+        right: 0px !important;
+        padding-top: 30px;
+        display: block !important;
+        position: relative !important;
+    }
+    .inner-luana-social {
+        color: white; 
+        font-weight: 700;
+    }
+    .inner-bloger-text h3 {
+        font-size: 16px !important;
+    }
+
+    .row.blogHeading {
+        margin-top: 10px !important;
+    }
+    span.byi {
+        font-weight: 100;
+        margin: 0px;
+        font-size: 12px;
+    }
+    .inner-luana-social { 
+        margin: 2px 0px 0 0px !important; 
+    }
+    .inner-bloger-text {
+        color: white !important;
+        font-weight: 700 !important;
+        margin: 3px 2px 0 0px !important;
+        padding: 15px 7px !important;
+    }
+    .inner-luana img {
+        height: 40px !important;
+        border-radius: 50px !important;
+        margin: 18px 0 0 0 !important;
+    }
+    
+}
+.barea2 p {
+    font-size: 17px;
+    color: #7D7D7D;
+}
+.innertext.col-lg.-\36{
+    font-size: 17px;
+    color: #7D7D7D;
+}
+/*----------------- media querry------------------ */
+/* ------------mobiles---------- */
+@media only screen and (min-width: 768px) and (max-width: 1280px)  
+{  
+
+    section.Blogslider { 
+        padding: 240px 0px !important;
+       
+    }
+    .blogger-inner-cap {
+        right: 18px !important;
+        padding-top: 100px !important;
+    }
+
+} 
+
+
+@media only screen and (min-width: 1281px) and (max-width: 1600px) {
+    section.Blogslider { 
+        padding: 330px 0px !important; 
+    }
+    .blogger-inner-cap { 
+        right: 29px !important;
+        padding-top: 100px !important;
+    }
+    /* insert styles here 19""*/
+}
+@media only screen and (min-width: 1601px) and (max-width: 1900px) {
+ 
+    section.Blogslider {
+        width: 100%;
+        padding: 440px 0px;
+        background: url(/images/review_bg.png);
+        background-size: cover;
+        z-index: -1;
+    }
+    /* insert styles here 24""*/
+}
+@media only screen and (max-width: 480px) {
+    .blog.col-lg-4 {
+        display: none;
+    }
+    .blog3.col-lg-4 {
+        display: block;
+        margin-top: 20px;
+    }
+    .barea {
+        display: inline-block;
+        width: 40px;
+    }
+    .barea2{
+        width: 100%;
+    }
+    .blog3.col-lg-4 h1{
+        font-size: 48px;
+    }
+    .blog3.col-lg-4 h2{
+        font-size: 48px;
+    }
+    .blog3.col-lg-4 p {
+        font-size: 18px;
+        color: #7D7D7D;
+    }
+    .luana2 {
+        width: 50%;
+        margin-top: 15px;
+        float: left;
+    }
+    .luana2 span {
+        color: #FFB8AA;
+    }
+    .luana2 h3 {
+        font-size: 12px;
+    }
+    .luana2 img {
+        float: left;
+        margin-right: 5px;
+    }
+}
+
+/* ------------tablet---------- */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .blog.col-lg-4 {
+        display: none;
+    }
+    .blog3.col-lg-4 {
+        display: block;
+        margin-top: 20px;
+    }
+    .barea {
+        display: inline-block;
+        width: 10%;
+    }
+    .barea2{
+        width: 100%;
+    }
+    .blog3.col-lg-4 h1{
+        font-size: 48px;
+    }
+    .blog3.col-lg-4 h2{
+        font-size: 48px;
+    }
+    .blog3.col-lg-4 p {
+        font-size: 18px;
+        color: #7D7D7D;
+    }
+    .luana2 {
+        width: 50%;
+        margin-top: 15px;
+        float: left;
+    }
+    .luana2 span {
+        color: #FFB8AA;
+    }
+    .luana2 h3 {
+        font-size: 12px;
+    }
+    .luana2 img {
+        float: left;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px)  and (max-width:1024px){
+    .blog.col-lg-4 {
+        display: none;
+    }
+    .blog3.col-lg-4 {
+        display: block;
+        margin-top: 20px;
+    }
+    .barea {
+        display: inline-block;
+        width: 20%;
+    }
+    .blog3.col-lg-4 h1{
+        font-size: 48px;
+    }
+    .blog3.col-lg-4 h2{
+        font-size: 48px;
+    }
+    .blog3.col-lg-4 p {
+        font-size: 18px;
+        color: #7D7D7D;
+    }
+    .luana2 {
+        width: 50%;
+        margin-top: 15px;
+        float: left;
+    }
+    .luana2 span {
+        color: #FFB8AA;
+    }
+    .luana2 h3 {
+        font-size: 12px;
+    }
+    .luana2 img {
+        float: left;
+        margin-right: 5px;
+    }
+    
+}
+
+@media only screen and (min-width: 1030px)   and (max-width: 1366px)  
+{ 
+    .blog.col-lg-8{
+        width: 40%;
+    }
+    .blog.col-lg-4{
+        width: 60%;
+    }
+}
+
+/* dev23 */
+.first-special-character::first-letter{
+    line-height: 80px;
+    float: left;
+    margin-right: 10px;
+    font-weight: bold;
+}
+/* .Blogger-details.container-fluid {
+    float: right;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 30px 0
+ 
+} */
+/* .blogger-inner-cap h1 {
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.inner-luana img {
+    border-radius: 50%;
+}
+.inner-luana-social .chakra-stack { 
+    display: flex;
+    justify-content: center;
+}
+.inner-bloger-text {
+    text-align: center;
+    margin-bottom: 10px;  
+}
+.blogger-inner-cap {
+    border-bottom: 3px solid #ddbaba;
+    padding: 10px;
+}
+.inner-bloger-text h3, h4 {
+    color: #fff;
+    font-weight: bold;
+}
+.inner-bloger-text {
+    background: #b0abab;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 9px 0 7px;
+}*/

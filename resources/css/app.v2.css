@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .example-block {
+        @apply block;
+    }
+}
+
+@layer utilities {
+    @variants responsive {
+        .masonry-4-col {
+            column-count: 4;
+            column-gap: 1em;
+        }
+
+        .masonry-2-col {
+            column-count: 2;
+            column-gap: 1em;
+        }
+
+        .masonry-y-gap div {
+            break-inside: avoid;
+        }
+
+        .masonry-y-gap div:not(:first-child) {
+            margin-top: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+    }
+}
+
+main {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "Canela";
+    src: local("Canela-Black"),
+        url("/fonts/Canela/subset-Canela-Black.woff2") format("woff2"),
+        url("/fonts/Canela/subset-Canela-Black.woff") format("woff");
+    font-weight: 800;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Canela";
+    src: local("Canela-Bold"),
+        url("/fonts/Canela/subset-Canela-Bold.woff2") format("woff2"),
+        url("/fonts/Canela/subset-Canela-Bold.woff") format("woff");
+    font-weight: 700;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Canela";
+    src: local("Canela-Medium"),
+        url("/fonts/Canela/subset-Canela-Medium.woff2") format("woff2"),
+        url("/fonts/Canela/subset-Canela-Medium.woff") format("woff");
+    font-weight: 500;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Canela";
+    src: local("Canela-Regular"),
+        url("/fonts/Canela/subset-Canela-Regular.woff2") format("woff2"),
+        url("/fonts/Canela/subset-Canela-Regular.woff") format("woff");
+    font-weight: 400;
+    font-display: block;
+}
+
+[x-cloak] { display: none !important; }
+
+.bg-abstractPattern {
+    background: linear-gradient(
+            90deg,
+            #80cae5bd 0%,
+            #80cae5bd 49%,
+            #ffb8aabd 80%
+        ),
+        url("/images/abstract-icon-pattern.png") bottom 100% center;
+}
+
+.bg-homeHero {
+    background: linear-gradient(
+        90deg,
+        #ffb8aabd 0%,
+        #ffb8aabd 65%,
+        #80cae5bd 100%
+    ),
+    url("/images/bg-hero-mobile.jpg");
+    background-position: right center;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+    .bg-homeHero {
+        background: linear-gradient(
+            to right,
+            rgba(255, 184, 170, .5) 0%,
+            rgba(255, 184, 170, 0.1) 100%
+        ), url(/images/privy-coming-soon.jpg) right center no-repeat #feb7ab;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .bg-homeHero {
+        background: linear-gradient(
+            to right,
+            rgba(255, 184, 170, .5) 0%,
+            rgba(255, 184, 170, 0.1) 100%
+        ), url(/images/privy-coming-soon.jpg) right center no-repeat #feb7ab;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .bg-homeHero {
+        background: linear-gradient(
+            to right,
+            rgba(255, 184, 170, .5) 0%,
+            rgba(255, 184, 170, 0.1) 100%
+        ), url(/images/privy-coming-soon.jpg) right center no-repeat #feb7ab;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .bg-homeHero {
+        background: linear-gradient(
+            to right,
+            rgba(255, 184, 170, .5) 0%,
+            rgba(255, 184, 170, 0.1) 100%
+        ), url(/images/privy-coming-soon.jpg) right bottom no-repeat #feb7ab;
+    }
+}
+
+
+.bg-half {
+    background: linear-gradient(rgb(255, 184, 170) 50%, transparent 50%) no-repeat;
+}
+
+.animated {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+    0%,
+    100% {
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(-5px);
+    }
+}
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+}

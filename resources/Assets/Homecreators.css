@@ -1,0 +1,315 @@
+.creator-flex-part {
+    display: flex;
+    background-color: #F2F5F9;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+
+.creator-title-part {
+    width: 50%;
+    padding: 0px 210px;
+}
+.creator-img-part{
+    width: 50%;
+}
+.creator-img-part img{
+    width: 100%;
+}
+.creator-title-part h2 {
+    font-size: 58px;
+    color: #054866;
+    margin-bottom: 15px;
+}
+.creator-title-part p {
+    color: #353d52;
+    font-size: 18px;
+}
+.search-part {
+    width: 100%;
+    border: none;
+    padding: 25px 27px;
+    border-radius: 15px;
+    font-size: 18px;
+    outline: none;
+    margin-top: 0px;
+    box-shadow: 10px 10px 10px 0px #2222;
+}
+.creator-input-part {
+    position: relative;
+    margin-top: 61px;
+}
+.creator-input-part svg {
+    position: absolute;
+    right: 22px;
+    top: 28px;
+    font-size: 23px;
+    color: #babacb;
+}
+.search-part::placeholder{
+    color: #c2c2d2;
+    font-size: 18px;
+}
+.Mcontainer {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: none;
+}
+.creator-second-flex-part {
+    display: flex;
+    align-items: center;
+    margin: 70px 0px;
+}
+.creator-next-img-part{
+    width: 50%;
+}
+.creator-next-img-part img{
+    width: 100%;
+    border-radius: 60px;
+}
+.creator-next-title-part {
+    width: 50%;
+    background-color: #F1F4F9;
+    padding: 53px 65px;
+    border-radius: 0px 25px 25px 0px;
+}
+.creator-next-title-part h2 {
+    color: #054866;
+    font-size: 29px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.creator-next-title-part p{
+font-size: 18px;
+}
+.creator-next-title-part button {
+    color: #92b2c6;
+    border: 2px solid #92b2c6;
+    background: none;
+    padding: 8px 47px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.creator-three-flex-part {
+    display: flex;
+    align-items: center;
+    margin: 70px 0px;
+}
+.creator-next2-img-part{
+    width: 50%;
+}
+.creator-next2-img-part img{
+    width: 100%;
+    border-radius: 60px;
+}
+.creator-next2-title-part {
+    width: 50%;
+    background-color: #F1F4F9;
+    padding: 53px 65px;
+    border-radius: 25px 0px 0px 25px;
+}
+.creator-next2-title-part h2 {
+    color: #054866;
+    font-size: 29px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.creator-next2-title-part p{
+font-size: 18px;
+}
+.creator-next2-title-part button {
+    color: #92b2c6;
+    border: 2px solid #92b2c6;
+    background: none;
+    padding: 8px 47px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.creator-last-part{
+    background-color: #f5f5f6;
+    /* margin: 60px 0px; */
+    padding: 120px 20px;
+}
+.creator-last-title-part{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+.creator-last-title-part h3 {
+    font-weight: 700;
+    font-family: 'Raleway';
+}
+.creator-last-title-part h2{
+font-size: 50px;
+}
+.creator-last-title-part p{
+color: #cbcbcc;
+font-size: 18px;
+}
+.creator-last-title-part button {
+    border: 2px solid #febaad;
+    color: #febaad;
+    padding: 11px 47px;
+    font-size: 20px;
+    background: none;
+    font-weight: 700;
+}
+@media screen and (max-width:767px) {
+   
+    .creator-input-part{
+        margin-top: 35px;
+    }
+    .creator-flex-part{
+        flex-direction: column;
+        padding: 100px 0px 10px 0px;
+    }
+    .creator-title-part {
+        width: 100%;
+        padding: 20px 20px;
+    }
+    .creator-img-part{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .creator-title-part h2 {
+        font-size: 33px;
+    }
+
+    .creator-title-part h2 {
+        font-size: 30px;
+    }
+    .creator-input-part svg {
+        top: 13px;
+    }
+    
+    .creator-second-flex-part {
+        flex-direction: column;
+        margin: 50px 0px;
+        padding: 20px;
+    }
+    .creator-next-img-part{
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .creator-next-title-part {
+        width: 100%;
+        margin-top: -30px;
+        border-radius: 25px;
+        z-index: -1;
+        padding: 48px 40px;
+    }
+    .creator-next-title-part p {
+        font-size: 15px;
+    }
+    .creator-next2-title-part p{
+        font-size: 15px;
+    }
+    .creator-next-title-part h2 {
+        font-size: 28px;
+    }
+    .creator-three-flex-part {
+        margin: 50px 0px;
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+    .creator-next2-img-part{
+        width: 100%;
+        padding: 0px 0px;
+    }
+    .creator-next2-title-part {
+        width: 100%;
+        margin-top: -30px;
+        border-radius: 25px;
+        z-index: -1;
+        padding: 48px 40px;
+    }
+    .creator-next2-title-part h2 {
+            font-size: 28px;
+    }
+
+    .creator-last-part{
+        margin: 50px 0px;
+        padding: 80px 30px;
+    }
+    .creator-last-title-part h2{
+    font-size: 40px;
+    }
+    .creator-last-title-part button {
+        padding: 9px 38px;
+        font-size:18px;
+    }
+    .creator-next-img-part img{
+        width: 80%;
+       
+    }
+    .creator-next-img-part{
+         text-align: center;
+    }
+    .creator-next2-img-part img{
+        width: 80%;
+       
+    }
+    .creator-next2-img-part{
+         text-align: center;
+    }
+ 
+}
+@media screen and (min-width:768px)  and (max-width:1100px){
+    .creator-next-title-part {
+        border-radius: 25px;
+    }
+    .creator-next2-title-part {
+        border-radius: 25px;
+    }
+}
+@media screen and (min-width:768px)  and (max-width:1600px){
+    .creator-title-part {
+        width: 50%;
+        padding: 0px 50px;
+    }
+    .creator-title-part h2 {
+        font-size: 45px;
+    }
+}
+
+
+.newtextadd {
+    background: #febaad;
+    padding: 70px 0px;
+}
+.newpara {
+    width: 50%;
+    margin: auto;
+}
+.newpara h1 {
+    font-size: 38px;
+    text-align: center;
+    color: #fff;
+}
+.newtext_button {
+    text-align: center;
+    margin-top: 40px;
+
+}
+.newtext_button  button {
+    background: #76c1df;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+   padding: 10px 25px;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width:480px){
+    .newpara{
+        width: 100%;
+    }
+    .newpara h1 {
+        font-size: 23px;
+    }
+    .newtext_button button{
+        font-size: 16px;
+    }
+}

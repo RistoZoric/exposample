@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: canelaRegular;
+  src: url(../img/CANELA-REGULAR.TTF);
+}
+@font-face {
+  font-family: canelaBold;
+  src: url(../img/CANELA-BOLD.TTF);
+}
+section.confirmedslider {
+    width: 100%;
+    background: #fff;
+    z-index: -1;
+    padding-top: 100px;
+}
+.confirmfirst {
+    width: 100%;
+    padding: 15px 0px;
+}
+.confirmfirst h1 {
+    text-align: center;
+    font-size: 56px;
+    color: #333333;
+}
+
+.confirmed1  {
+    background: url(../img/Confirmed1.png);
+    padding: 200px 10px;
+    width: 853px;
+    margin: auto;
+    background-repeat: no-repeat;
+
+}
+.confirmHeading {
+    text-align: center;
+}
+.confirmHeading h1 {
+    font-size: 26px;
+    color: #144167;
+    padding-top: 70px;
+    font-weight: bold;
+    font-family: 'Raleway';
+}
+.confirmHeading p {
+    font-size: 18px;
+    color: #A5A5A5;
+}
+.confirmHeading button {
+    width: 758px;
+    border: none;
+    background: #FFB8AA;
+    color: #fff;
+    font-size: 19px;
+    padding: 15px 0px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 480px){
+    .confirmfirst h1{
+        font-size: 34px;
+    }
+    .confirmed1 {
+        width: 330px;
+        background-position: center;
+        border-radius: 20px;
+        background-size: 100% 50%;
+        padding: 0px 0px;
+    }
+    .confirmHeading button {
+        width: 279px;
+        font-size: 12px;
+    }
+    .confirmHeading p{
+        font-size: 9px;
+    }
+    .confirmHeading {
+    padding-top: 140px;
+    }
+}

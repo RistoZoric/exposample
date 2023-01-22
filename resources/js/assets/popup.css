@@ -1,0 +1,169 @@
+.one_side{
+  width: 28%;
+  float: left;
+  height: 373px;
+  background: url(./img/bgleft.png) no-repeat;
+}
+.two_side{
+  width: 60%;
+  background: url(./img/bgright.png) no-repeat;
+  padding: 30px 0px;
+  text-align: center;
+  float: right;
+}
+.platform img {
+  vertical-align: middle;
+  margin: 0px 6px;
+  padding: 13px;
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  background: #fff;
+}
+.platform {
+  padding: 60px 0px;
+}
+.platform .platform_link .active_link{
+  background-color: #84CDE8;
+}
+.platform .platform_link, .verify_btn .platform_link{
+  display: inline-block;
+  vertical-align: bottom;
+}
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 999;
+}
+.cnt223 {
+    width: 60%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+.popup h2 {
+    font-size: 22px;
+    margin-top: 35px;
+    color: #fff;
+    font-family: myFirstFont;
+  }
+  button.closeBtn {
+    position: absolute;
+    right: 18%;
+    top: 6px;  
+    cursor: pointer;
+}
+button.closeBtn i { color: #080808; }
+
+
+  .verify_btn button {
+    background: #252525;
+    outline: none;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-weight: 600;
+    padding: 10px 40px;
+  }
+  .verify_btn svg {
+    color: #F9B9AD;
+    background: #363636;
+    height: 47px;
+    padding: 15px;
+    margin-top: -4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 45px;
+  }
+  .popup .close {
+    position: absolute;
+    top: 0;
+    right: 7%;
+    transition: all 200ms;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+@media only screen and (min-width:1024px) and (max-width: 1281px) { 
+  button.closeBtn {
+    position: absolute;
+    right: 12% !important;
+    top: 6px;
+    cursor: pointer;
+  }
+
+}
+@media only screen and (min-width: 1281px) and (max-width: 1600px) { 
+  button.closeBtn {
+    position: absolute;
+    right: 13% !important;
+    top: 6px;
+    cursor: pointer;
+  }
+
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1900px) { 
+
+  button.closeBtn {
+    position: absolute;
+    right: 13% !important;
+    top: 6px;
+    cursor: pointer;
+  }
+}
+ 
+@media screen and (max-width: 767px){
+    .one_side{
+      width: 100%;
+      height: 200px;
+      background-size: cover;
+    }
+    .cnt223 {
+      width: 80% !important;
+      position: relative;
+      transition: all 5s ease-in-out;
+      margin: 100px auto;
+      border-radius: 5px;
+  }
+    button.closeBtn {
+      position: absolute;
+      right: 12px !important;
+      top: 6px;
+      cursor: pointer;
+  }
+    .two_side{
+      width: 100%;
+    }
+  .popup h2 {
+    font-size: 18px;
+  }
+  .verify_btn button {
+    font-size: 10px;
+  }
+  .verify_btn svg {
+    height: 35px;
+    padding: 11px;
+    width: 35px;
+    margin: 0px;
+  }
+  .platform {
+    padding: 30px 0px;
+  }
+  .popup img {
+    height: 40px;
+    padding: 12px;
+    width: 40px;
+  }
+  .popup .close {
+    color: #000;
+  }
+}
+

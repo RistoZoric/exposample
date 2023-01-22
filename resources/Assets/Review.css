@@ -1,0 +1,874 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../img/CANELA-REGULAR.TTF);
+}
+
+@font-face {
+    font-family: canelaBold;
+    src: url(../img/CANELA-BOLD.TTF);
+}
+
+h1 {
+    font-family: canelaBold;
+}
+
+/* / / / //fans pages css// / / / */
+.onlyfans-first-part {
+    margin-bottom: 10px;
+}
+
+.onlyfans-first-part a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.onlyfans-first-part svg {
+    font-size: 13px;
+    margin-left: 13px;
+}
+
+.profile-part {
+    background-color: #80CAE5;
+    padding: 7% 0% 4% 0%;
+    width: 100%;
+}
+
+.rightside_profile {
+    padding-top: 70px;
+}
+
+.main_content h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main_content h3 {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main_content button {
+    background: none;
+    border: none;
+    font-size: 19px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.main_content button svg {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.linked_btn {
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 25px;
+    float: right;
+    width: 65%;
+    position: relative;
+    cursor: pointer;
+}
+
+.inner_icons {
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 25px;
+    width: 65%;
+    float: right;
+}
+.inner_icons ul {
+    padding: 0px;
+    margin: 0px;
+}
+.inner_icons a {
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 25px;
+}
+
+.Inner_poplink {
+    position: absolute;
+    background: #fff;
+    border-radius: 5px;
+    width: 200px;
+    top: 110%;
+    box-shadow: 10px 10px 20px 2px rgb(0 0 0 / 5%);
+    left: 0;
+}
+.Inner_poplink ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.Inner_poplink ul li:hover {
+    background: #e2e8f0;
+
+}
+.Inner_poplink ul li {
+    margin: 5px 0px;
+    padding: 5px;
+}
+.Inner_poplink ul li a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    
+}
+
+.linked_btn svg {
+    float: right;
+    padding: 0px;
+    margin-top: -8px;
+}
+
+.linked_btn h4 {
+    font-size: 19px;
+    color: #fff;
+    font-family: Source Sans Pro;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.linked_btn span {
+    font-size: 16px;
+}
+
+.leftside_profile {
+    display: flex;
+}
+
+.leftside_profile .picture {
+    width: 40%;
+}
+
+.main_content {
+    color: #fff;
+    margin-top: 30px;
+}
+.main_content icon {
+    font-size: 33px;
+    color: #F6B83A;
+    margin-right: 10px;
+}
+
+.main_content p {
+    font-size: 12px;
+}
+
+.main_content b {
+    font-size: 23px;
+}
+
+.picture img {
+    width: 90%;
+}
+
+.guyu {
+    text-align: right;
+
+}
+
+.vvv {
+    padding: 7px 40px 7px 30px;
+    background-color: #fff;
+    color: #6d7783;
+
+}
+
+.vv {
+    padding: 7px 40px 7px 30px;
+    background-color: #80CAE5;
+    color: #fff;
+}
+
+/* / / / second section /  / / */
+.second_section {
+    padding: 40px 0px;
+}
+
+.first h3 {
+    font-size: 18px;
+    color: #9098A0;
+    padding: 0px 22px;
+}
+
+
+.left_blue {
+    width: 40%;
+}
+
+.right_content {
+    width: 60%;
+}
+
+.inner {
+    background-color: #5EBCDE;
+    height: 355px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin: 22px 18px;
+}
+
+.inner h3 {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 10px 10px 20px 20px;
+    width: 345px;
+    font-size: 20px;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+}
+.Review_section {
+    background-color: #F9F9FA;
+}
+
+.review_leftSide {
+    width: 56%;
+    margin-right: 4%;
+}
+
+.review_rightSide {
+    width: 40%;
+    padding-top: 40px;
+}
+
+.creator_box {
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.creator_name {
+    width: 60%;
+    padding-left: 70px;
+}
+
+.creator_name p {
+    color: #BED1DC;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.review_creator {
+    width: 40%;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.review_creator svg {
+    font-size: 30px;
+    color: #ffb200;
+    margin-left: 10px;
+}
+
+.creator_box h1 {
+    font-size: 24px;
+    position: relative;
+    padding-top: 10px;
+    color: #6D7783;
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin: 0;
+}
+.creator_box h1::before {
+    content: '';
+    position: absolute;
+    background-color: #BED1DC;
+    width: 55px;
+    height: 55px;
+    top: 15%;
+    left: -70px;
+    right: 0;
+    border-radius: 50px;
+}
+
+.rating_box {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rating_box h1 {
+    font-size: 25px;
+    color: #6D7783;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.filter p {
+    float: left;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #6D7783;
+    font-weight: bold;
+}
+
+.rating_flexes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating_filter {
+    margin-bottom: 25px;
+}
+
+button.rate_btn {
+    background: no-repeat;
+    border: 1px solid #EBEBF0;
+    padding: 8px 20px;
+    margin-left: 10px;
+    color: #6D7783;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button.rate_btn svg {
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+button.rate_btn svg path {
+    stroke: #6D7783;
+}
+
+.progress_rate {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+    justify-content: space-between;
+}
+
+.progress_rate label {
+    width: 10%;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #ADADB7;
+    font-size: 16px;
+}
+
+.progress_rate p {
+    margin: 0px;
+    color: #ADADB7;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.outerfor_tagbtns {
+    margin: 25px 0px;
+}
+
+.tag_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.tag_btn {
+    padding: 6px 0px;
+    width: 15%;
+    margin: 7px 0px;
+    border: 1px solid #EEEEF3;
+    background: transparent;
+    transition: 0.4s;
+    color: #9C9CA1;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+button.tag_btn:hover {
+    background: #BED1DC;
+    color: #fff;
+    border: 1px solid #EEEEF3;
+}
+
+.comment_creator {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.review_creator_two svg {
+    font-size: 30px;
+    color: #ffb200;
+    margin-left: 10px;
+}
+
+.comment_creator_box h1 {
+    font-size: 24px;
+    position: relative;
+    padding-top: 10px;
+    color: #6D7783;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+
+.comment_creator_box h1::before {
+    content: '';
+    position: absolute;
+    background-color: #BED1DC;
+    width: 55px;
+    height: 55px;
+    top: 40%;
+    left: -70px;
+    right: 0;
+    border-radius: 50px;
+}
+
+.comment_creator_name {
+    padding-left: 70px;
+    border-bottom: 1px solid #dedede;
+}
+
+.comment_creator_name p {
+    color: #BED1DC;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 13px;
+}
+.comment_creator_name svg {
+    margin-left: 10px;
+}
+.review_creator_two {
+    padding: 20px 0px;
+}
+
+.comment_creator_text_content {
+    border-bottom: 1px solid #dedede;
+}
+
+.comment_creator_text_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment_creator_text_title h6 {
+    color: #BED1DC;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.comment_creator_text_title h3 {
+    color: #6D7783;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.comment_creator_text_content p {
+    font-size: 16px;
+    line-height: 35px;
+    color: #838383;
+}
+
+.likeShare_sec {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.useful,
+.Share,
+.FLAG {
+    color: #777;
+    text-decoration: none;
+}
+
+.Share {
+    padding-left: 20px;
+}
+
+.likeShare_sec svg {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.ranked_peoples {
+    background: #fff;
+    margin-top: 20px;
+}
+
+.ranked_profiles {
+    width: 30%;
+    padding: 0px;
+}
+
+.ranked_profiles img {
+    width: 85%;
+}
+
+.ranked_bio {
+    width: 70%;
+}
+
+.ranked_bio_topTitle,
+.ranked_bio_rate,
+.ranked_bio_fansName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ranked_bio_rate {
+    padding: 8px 0px;
+}
+
+.ranked_bio_topTitle {
+    padding-top: 10px;
+}
+
+.review_rightSide h5 {
+    color: #68c0e0;
+    position: relative;
+    margin-bottom: 5px;
+    font-family: 'Raleway';
+}
+
+.review_rightSide h5::after {
+    content: '';
+    position: absolute;
+    background: #68c0e0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    width: 15%;
+}
+
+.ranked_bio_topTitle button {
+    background: #6DD400;
+    border: none;
+    width: 14%;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.ranked_bio_topTitle svg {
+    font-size: 20px;
+}
+.ranked_bio_topTitle h6 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    margin-bottom: 15px;
+}
+.ranked_bio_social svg {
+    color: #68c0e0;
+    margin: 0px 10px;
+    font-size: 18px;
+}
+
+.ranked_bio_social p,
+.ranked_bio_rate p {
+    font-size: 15px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.ranked_bio_rate svg {
+    color: #feb200;
+    font-size: 20px;
+    margin: 0px 4px;
+}
+
+.ranked_bio_rate button,
+.ranked_bio_fansName button {
+    background: none;
+    border: none;
+    font-size: 13px;
+    color: #8d8d8d;
+}
+
+.ranked_bio_fansName button svg,
+.ranked_bio_rate button svg {
+    border: none;
+    border-radius: unset;
+    color: #8d8d8d;
+    padding: 0px;
+}
+
+.ranked_bio_fansName svg {
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-right: 8px;
+    padding: 2px;
+}
+
+.ranked_bio_fansName p {
+    margin: 0px;
+    font-size: 15px;
+}
+
+.ranked_bio_fansName b {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.review_viewMore_btn {
+    margin: 30px 0px;
+    padding: 1% 6%;
+    border: 2px solid #68c0e0;
+    width: 60%;
+}
+.review_viewMore_btn a {
+    text-decoration: none;
+    color: #68c0e0;
+    font-size: 24px;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.review_viewMore_btn svg {
+    margin-left: 8%;
+    margin-bottom: 3%;
+
+}
+
+.review_trust_image {
+    background-image: url(../img/whyPrivy.png);
+    background-size: cover;
+    padding: 30px;
+}
+
+.review_trust_image h1 {
+    color: #fff;
+    font-size: 45px;
+    font-family: myFirstFont;
+    font-weight: 500;
+}
+
+.review_knowMore_btn {
+    margin: 30px 0px;
+    padding: 1% 6%;
+    border: 2px solid #fff;
+    width: 80%;
+}
+
+.review_knowMore_btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+
+.review_knowMore_btn svg {
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+
+@media only screen and (max-width: 991px) {
+    .linked_btn {
+        width: 100%;
+        padding: 15px 20px 15px 20px;
+    }
+    .linked_btn h4{
+        font-size: 16px;
+    }
+    .linked_btn span {
+        font-size: 14px;
+    }
+    .comment_creator_box h1{
+        font-size: 20px;
+    }
+    .comment_creator_text_title h3{
+        font-size: 17px;
+    }
+    .review_leftSide {
+        width: 100%;
+        margin: 0px;
+        padding: 15px 30px;
+    }
+    .review_rightSide {
+        width: 100%;
+        padding: 10px 30px;
+    }
+
+    .creator_name {
+        width: 50%;
+    }
+
+    .review_creator {
+        width: 50%;
+    }
+
+    .rating_box h1 {
+        font-size: 20px;
+        margin: 0px;
+        padding-top: 10px;
+    }
+
+    button.tag_btn,
+    button.rate_btn {
+        font-size: 10px;
+    }
+
+    .comment_creator_text_content p {
+        font-size: 14px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .review_viewMore_btn svg {
+        margin-left: 0;
+    }
+
+    .review_viewMore_btn a {
+        font-size: 16px;
+    }
+
+    .review_knowMore_btn a {
+        font-size: 16px;
+    }
+
+    .picture img {
+        width: 100%;
+    }
+
+    .profile-part {
+        padding: 90px 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+.inner_icons {
+    width: 100%;
+    padding: 15px;
+}
+    .creator_box h1 {
+        font-size: 14px;
+    }
+
+    .creator_name p {
+        font-size: 11px;
+    }
+
+    .main_content b {
+        font-size: 15px;
+    }
+
+    .filter p {
+        font-size: 10px;
+    }
+
+    .main_content icon {
+        font-size: 25px;
+    }
+
+    .main_content h1 {
+        font-size: 26px;
+    }
+    .main_content h3 {
+        font-size: 16px;
+    }
+
+    .main_content button {
+        font-size: 16px;
+    }
+
+    .onlyfans-first-part a {
+        margin-right: 10px;
+    }
+
+
+
+    button.rate_btn {
+        padding: 8px 5px;
+    }
+
+    button.rate_btn svg {
+        font-size: 12px;
+    }
+
+    .ranked_bio_social svg {
+        margin: 0px 4px;
+        font-size: 16px;
+    }
+
+    .ranked_bio_fansName p {
+        font-size: 10px;
+    }
+
+    .ranked_bio_rate button,
+    .ranked_bio_fansName button {
+        font-size: 10px;
+    }
+
+    .ranked_bio_rate svg {
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .ranked_bio_fansName svg {
+        font-size: 16px;
+    }
+
+    .ranked_bio_topTitle h6 {
+        font-size: 12px;
+    }
+
+    .ranked_bio_topTitle button {
+        width: 20%;
+        font-size: 13px;
+    }
+
+    .ranked_bio_social p,
+    .ranked_bio_rate p {
+        font-size: 12px;
+    }
+
+    .progress_rate label {
+        width: 25%;
+    }
+
+    .progress_rate svg {
+        width: 40% !important;
+    }
+
+    .review_creator svg {
+        font-size: 20px;
+    }
+
+    .ranked_bio_fansName b {
+        font-size: 12px;
+    }
+
+    .ranked_profiles img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px)and (max-width: 1400px) {
+    .review_viewMore_btn {
+        width: 50%;
+    }
+
+    .review_knowMore_btn {
+        width: 85%;
+    }
+}

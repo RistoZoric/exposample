@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+<channel>
+
+<item>
+<g:id>1</g:id>
+<title>Basic</title>
+<description>Use the core features of Privy for free. Enjoy our free features and continue growing your fandom.</description>
+<link>https://www.privy.reviews</link>
+<g:image_link>https://www.privy.reviews/images/basic-monthly.jpg</g:image_link>
+<g:availability>In Stock</g:availability>
+<g:price>Free</g:price>
+</item>
+
+<item>
+<g:id>2</g:id>
+<title>Standard</title>
+<description>Unlock many of our features that allow you to stand out from the rest. Features like upgrading your profile, priority support, and custom analytics to help you grow your fandom.</description>
+<link>https://www.privy.reviews</link>
+<g:image_link>https://www.privy.reviews/images/standard-monthly.jpg</g:image_link>
+<g:availability>In Stock</g:availability>
+<g:price>99.99 USD</g:price>
+</item>
+
+<item>
+<g:id>3</g:id>
+<title>Premium</title>
+<description>Get the VIP treatment with our Premium plan. Unlock all features and have a robust profile. Your profile will also be featured on our “Featured Creators” page. This plan is great for rising talents. Get seen by everyone.</description>
+<link>https://www.privy.reviews</link>
+<g:image_link>https://www.privy.reviews/images/premium-monthly.jpg</g:image_link>
+<g:availability>In Stock</g:availability>
+<g:price>199.99 USD</g:price>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,102 @@
+.toShow{
+    display: none;
+}
+.favourite_cover {
+    padding: 100px 0px;
+    width: 100%;
+    background: linear-gradient(#F6F6F8 10%,#EEEEEE 0) no-repeat;
+}
+.favourite_buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.favourite_buttons .saved {
+    color: #80cae5;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.favourite_buttons .list {
+    color: #5EBCDE;
+    font-size: 16px;
+    border: 1px solid #5EBCDE;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    width: 13%;
+    text-align: center;
+}
+
+.favourite_boxparts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.boxparts_here {
+    background: #fff;
+    margin: 1%;
+    cursor: pointer;
+    width: 31.33%;
+    border-radius: 22px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    transition: 0.6s;
+}
+
+.boxparts_here:hover {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    transform: translate(0px, -5px);
+}
+
+.content_boxpart {
+    padding: 30px;
+}
+
+.content_boxpart h2 {
+    font-size: 25px;
+    color: #5EBCDE;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.content_boxpart h6 {
+    font-size: 14px;
+    color: #aaa;
+    font-family: 'Raleway', sans-serif;
+}
+
+img.watchers {
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+.toShow{
+    display: block;
+}
+    .favourite_boxparts {
+        flex-direction: column;
+    }
+
+    .favourite_buttons .list {
+        width: auto;
+        border-radius: 5px;
+        padding: 8px 15px;
+        font-weight: 500;
+    }
+
+    .boxparts_here {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .favourite_cover{
+        padding: 20px 15px;
+    }
+
+}

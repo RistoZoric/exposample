@@ -1,0 +1,15 @@
+/helm/secrets.yml
+.idea
+/node_modules
+/vendor
+/public/storage
+/storage/*.key
+.env
+npm-debug.log
+yarn-error.log
+docker-compose.override.yml
+.phpstorm.meta.php
+.phpunit.result.cache
+_ide_helper.php
+_ide_helper_models.php
+*.index

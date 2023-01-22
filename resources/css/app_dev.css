@@ -1,0 +1,59 @@
+ 
+ .seven_categories .one_cat p{
+  text-transform: capitalize;
+ }
+ .footer-language-dropDown option {
+  background: #80CAE5 !important;
+ }
+ .checkOne #accept_tos {
+  width: 8%;
+}
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .chakra-stack.review-pannel-profile {
+      margin: 0 !important;
+   }
+   .chakra-stack.suggest-stack {
+      margin: 0 !important;
+  }
+  .hstack-inner-stack .chakra-stack {
+    padding: 8px 0px !important;
+}
+.chakra-stack.hstack-inner-stack {
+  display: block !important;
+  width: 100% !important;
+}
+button.chakra-button.css-1yam8nb {
+  width: 100% !important;
+  margin-top: 40px !important;
+}
+    p.chakra-text {
+      overflow: hidden;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      max-width: 200px;
+  }
+    a.chakra-link {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      max-width: 165px;
+  }
+}
+
+button.btn.btn-danger.Delete-user {
+  float: right;
+}
+a.nav-link {
+  cursor: pointer;
+}
+button.chakra-button.btn-link {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  height: 38px;
+  width: 44px;
+}
+button.chakra-button.btn-link:hover{
+  color:white; 
+}

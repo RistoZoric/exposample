@@ -1,0 +1,179 @@
+/* / //standard page// / */
+.plans-title-part{
+  text-align: center;
+  padding-top: 60px;
+}
+.plans-title-part h6 {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Raleway';
+  font-weight: 400;
+}
+.plans-title-part h2{
+    color: #fff;
+    font-size: 57px;
+}
+.standard-title-part {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: #EDF2F6;
+  border-radius: 30px;
+  margin-top: 125px;
+  box-shadow: 10px 10px 20px 2px rgb(0 0 0 / 20%);
+}
+.standard-title-part h4{
+  color: #80CAE5;
+  font-size: 30px;
+  padding-top: 40px;
+  font-family: 'Raleway';
+    font-weight: 400;
+  }
+  .standard-title-part h1{
+    color: #80CAE5;
+    font-size: 86px;
+    font-weight: 600;
+    }
+    .standard-title-part h1 span{
+    font-weight: 300;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: -35px;
+    left: 10px;
+
+    }
+    .standard-title-part h6{
+      margin-bottom: 20px;
+    }
+    .standard-title-part p {
+        position: relative;
+        font-size: 14px;
+        color: #171718;
+    }
+    .standard-title-part p::after {
+      content: '';
+      background: #000;
+      position: absolute;
+      left: 25%;
+      bottom: -15px;
+      width: 50%;
+      height: 1px;
+  }
+  .standard-checkbox-part button {
+    background-color: #80CAE5;
+    border: none;
+    padding: 15px 59px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 38px 0px;
+}
+  .standard-checkbox-part{
+    padding: 30px 0px 50px 0;
+    text-align: left;
+    max-width: 365px;
+    margin: auto;
+  
+  }
+  .text-c{
+    text-align: center;
+  }
+  /* .standard-checkbox-part{
+    text-align: center;
+  }  */
+  .standard-checkbox-part icon{
+    color: #80CAE5;
+    margin-right: 10px;
+  }
+  .standard-checkbox-part label {
+    color: #171718;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 0px;
+}
+  @media screen and (max-width: 480px){
+    .standard-checkbox-part label {
+        font-size: 14px;
+    }
+    .standard-checkbox-part {
+         padding: 20px 20px 20px 20px;
+    }
+    .plans-title-part{
+      text-align: center;
+      padding-top: 60px;
+    }
+    .plans-title-part h6{
+      color: #fff;
+      font-size: 20px;
+      
+      }
+     
+
+    
+      .standard-title-part h1{
+        color: #80CAE5;
+        font-size: 86px;
+        }
+        .standard-title-part p {
+          padding: 0px -13px 0px 32px;
+          text-align: left;
+          padding: 0px 51px 0px 58px;
+      }
+      .standard-title-part p::after {
+        content: '';
+        background: #000;
+        position: absolute;
+        left: 11%;
+        bottom: -15px;
+        width: 78%;
+        height: 1px;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .plans-title-part{
+      text-align: center;
+      padding-top: 30px;
+    }
+    .plans-title-part h6{
+      color: #fff;
+      font-size: 20px;
+      
+      }
+      .plans-title-part h2 {
+        color: #fff;
+        font-size: 24px;
+    }
+    .standard-title-part {
+      text-align: center;
+      background-color: #EDF2F6;
+      border-radius: 30px;
+      margin-top: 55px;
+    }
+    .standard-title-part h4 {
+        color: #5EBCDE;
+        font-size: 28px;
+        padding-top: 40px;
+    }
+    .standard-title-part p br{
+      display: none;
+    }
+      .standard-title-part h1{
+        color: #5EBCDE;
+        font-size: 86px;
+        }
+        .standard-title-part p {
+            padding: 5px 16px;
+            text-align: center;
+        }
+      .standard-title-part p::after {
+        content: '';
+        background: #000;
+        position: absolute;
+        left: 11%;
+        bottom: -15px;
+        width: 78%;
+        height: 1px;
+    }
+  }

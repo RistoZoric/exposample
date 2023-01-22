@@ -1,0 +1,235 @@
+.Categories_slider {
+  background: linear-gradient(#FAFAFA 10%,#eee 0) no-repeat;
+  padding: 100px 10px 80px 0px;
+}
+.Categories_slider .wrap{
+  margin-top: 7rem;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'canela';
+  font-weight: bold!important;
+}
+.Cat1 {
+  padding: 100px 0px 0px 0px;
+}
+.slick-prev:before {
+  content: url(../img/rightarrow.png) !important;
+} 
+.slick-next:before {
+  content: url(../img/leftarrow.png)!important;
+} 
+.Cat1 h2 {
+  font-size: 25px;
+  color: #000;
+}
+.svg_slides {
+  background: #80CAE5;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  height: 110px;
+  width: 80% !important;
+}
+svg.chakra-icon.css-tw74kl {
+  color: #fff;
+  font-size: 70px;
+  margin-top: 20px;
+  display: inline;
+}
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  padding: 10px 10px;
+}
+.svg_slides h2 {
+    font-size: 14px;
+    color: #4A5568;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    font-family: raleway;
+    font-weight: 600;
+}
+.svg_slides p {
+  color: #BEC7D3;
+  font-size: 14px;
+}
+ul.slick-dots {
+  display: none !important;
+}
+.slick-prev, .slick-next{
+top: 110% !important;
+}
+.slick-prev{
+  left: 45% !important;
+}
+.slick-next{
+  right: 45% !important;
+}
+.slick-next {
+  /* right:  !important; */
+}
+.slick-prev:before,
+.slick-next:before {
+   background-color: #EEEEEE !important;
+   color: #4A5568 !important;
+}
+.svg_slides2 {
+  padding: 10px 16px;
+}
+
+.svg_slides2 img {
+  border-radius: 50%;
+  text-align: center;
+  width: 100% !important;
+}
+.svg_slides2 h2 {
+  font-size: 14px;
+}
+.svg_slides2 h2 {
+  font-size: 14px;
+  font-family: raleway;
+  color: #515C6E;
+  text-align: center;
+  padding-top: 5px;
+}
+.Cat h3 {
+  padding: 10px 20px;
+  font-size: 25px;
+  border-top: 1px solid #DEE4EA;
+}
+.Cat {
+  padding: 60px 0px;
+  border-bottom: 1px solid #DEE4EA;
+}
+.two_arrow {
+  text-align: center;
+  border-bottom: 1px solid #DEE4EA;
+}
+.two_arrow svg.chakra-icon.css-ag1zpf {
+  width: 6%;
+  padding: 20px 20px;
+  color: #CBD5E0;
+
+  margin-left: 25px;
+}
+.Music a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'canela';
+  font-size: 25px;
+  font-weight: bold;
+}
+.Music {
+  padding-top: 15px;
+}
+.content_chkra {
+  text-align: left;
+}
+ svg.chakra-avatar__svg.css-16ite8i {
+  width: 100%;
+  background: #B3D9EC;
+  color: #fff;
+  border-radius: 30px;
+  margin: 10px 0px;
+}
+.search-buttons32 input#search {
+  border: none;
+  color: #8b8b8b;
+  outline: none;
+  padding: 25px 25px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 0px 20px 40px #0f11371a;
+}
+.search-buttons32 {
+  padding: 90px 0px 0px 0px;
+  width: 50%;
+  margin: auto;
+}
+.search-buttons32 svg {
+  color: #8b8b8b;
+  margin-left: -40px;
+}
+.search-buttons32 {
+  padding: 90px 0px 0px 0px;
+}
+.search-buttons32  h2 {
+  text-align: center;
+ margin-bottom: 25px;
+ font-size: 35px;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+  .search-buttons32 h2 {
+    font-size: 19px;
+}
+  .search-buttons32 {
+    width: 85%;
+}
+  .slick-slide.slick-active.slick-current {
+    text-align: center;
+}
+.svg_slides {
+
+  width: 33% !important;
+}
+.slick-next {
+  right: 15% !important;
+}
+.slick-prev {
+  left: 15% !important;
+}
+.svg_slides2 {
+  padding: 21px 100px;
+}
+.two_arrow svg.chakra-icon.css-ag1zpf {
+  width: 19%;
+  padding: 23px 16px;
+  margin-right: 36px;
+  margin-left: 70px;
+}
+svg.chakra-avatar__svg.css-16ite8i{
+  width: 25%;
+}
+.content_chkra {
+  text-align: center;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .slick-slide.slick-active.slick-current {
+    text-align: center;
+}
+.svg_slides {
+
+  width: 30% !important;
+}
+.slick-next {
+  right: 15% !important;
+}
+.slick-prev {
+  left: 15% !important;
+}
+.svg_slides2 {
+  padding: 21px 130px;
+}
+.two_arrow svg.chakra-icon.css-ag1zpf {
+  width: 19%;
+  padding: 23px 16px;
+  margin-right: 36px;
+  margin-left: 70px;
+}
+svg.chakra-avatar__svg.css-16ite8i{
+  width: 25%;
+}
+.content_chkra {
+  text-align: center;
+}
+
+}
+

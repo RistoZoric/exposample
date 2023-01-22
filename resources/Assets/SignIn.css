@@ -1,0 +1,263 @@
+/* .sigin-color-part {
+    padding: 90px 0px;
+    background: linear-gradient(#ffb8aa 60%,transparent 0) no-repeat;
+}
+.sigin-title-part{
+        text-align: center;
+        background-color: #fff;
+        border-radius: 90px;
+        margin-top: 115px;
+        padding: 75px 0px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.sigin-title-part h1 {
+    color: #FEB8AA;
+    font-size: 32px;
+}
+.sigin-title-part p {
+    color: #9B9CA4;
+    font-size: 16px;
+}
+input[type="username"] {
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #E9E9F0;
+    outline: none;
+    margin: 32px 0px;
+    font-size: 16px;
+    color: #808495;
+}
+input[type="email"] {
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #E9E9F0;
+    outline: none;
+    margin: 1px 0px 18px 0px;
+    font-size: 16px;
+    color: #808495;
+}
+input#password2 {
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #E9E9F0;
+    outline: none;
+    margin: 29px 0px 24px 0px;
+    font-size: 16px;
+    color: #808495;
+}
+input#phonenumber {
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #E9E9F0;
+    outline: none;
+    margin: 13px 0px 29px 0px;
+    font-size: 16px;
+    color: #808495;
+}
+
+
+input[type="Password"] {
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #E9E9F0;
+    outline: none;
+    margin: 13px 0px 29px 0px;
+    font-size: 16px;
+    color: #808495;
+}
+.checbox2 {
+    width: 50%;
+    margin: 0px 60px;
+}
+.checbox2 label {
+    display: inline-block;
+    font-size: 13px;
+    color: #4D4F5C;
+}
+input#vehicle1 {
+    margin-right: 10px;
+
+}
+.incon-part icon{
+    color: #1166C2;
+    margin-right: 20px;
+
+}
+.incon-part img{
+    margin-right: 20px;
+}
+.sigin-button-part button {
+    border: 1px solid #C7CAD9;
+    border-radius: 30px;
+    width: 50%;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    padding: 15px 18px;
+    font-size: 14px;
+    background: #ffff;
+    color: #1E3354;
+}
+.sigin-button-part svg {
+    margin-right: 16px;
+}
+.sigin-button-part img {
+    margin-right: 20px;
+}
+button.login {
+    background: #fff;
+    padding: 10px 58px;
+    border-radius: 25px;
+    border: 2px solid #FEB8AA;
+    color: #FEB8AA;
+    margin-right: 20px;
+    width: 23%;
+    font-size: 16px;
+}
+button.up {
+    background: #FEB8AA;
+    color: #fff;
+    padding: 11px 50px;
+    border-radius: 25px;
+    border: none;
+    width: 25%;
+    font-size: 16px;
+}
+.sigin-last-part {
+    margin: 35px 0px 35px 0px;
+}
+.sigin-last-part h1 {
+    color: #FEB8AA;
+    font-size: 22px;
+}
+    .button-part-start{
+        margin-top: 30px;
+    }
+    @media screen and (max-width: 480px){
+        .sigin-title-part h1 {
+            color: #FEB8AA;
+            font-size: 22px;
+        }
+        .sigin-title-part p {
+            color: #9B9CA4;
+            font-size: 11px;
+        }
+        .sigin-title-part{
+            border-radius: 35px;
+        }
+        input[type="username"] {
+            width: 86%;
+        }
+        input[type="email"] {
+            width: 86%;
+        }
+        input[type="password"] {
+            width: 91%;
+        }
+        input#phonenumber {
+            width: 86%;
+        }
+        .checbox2 {
+            width: 40%;
+            margin: 0px 0px 0px 10px;
+        }
+        .checbox2 label {
+            display: inline;
+            font-size: 12px;
+        }
+        .sigin-button-part button {
+            border-radius: 30px;
+            width: 85%;
+            text-align: center;
+            margin: 20px 0px 0px 0px;
+            padding: 11px 18px;
+            background: #ffff;
+        }
+        button.login {
+            background: #fff;
+            padding: 10px 58px;
+            border-radius: 25px;
+            border: 2px solid #FEB8AA;
+            color: #FEB8AA;
+            margin-right: 20px;
+            width: 84%;
+            margin: 0px 0px 20px 25px;
+        }
+        button.up {
+            background: #FEB8AA;
+            color: #fff;
+            padding: 11px 50px;
+            border-radius: 25px;
+            border: none;
+            width: 84%;
+        }
+        
+    } */
+   
+    /* / / //Tablet// / / */
+    /* @media only screen and (min-width: 768px)  and (max-width:1000px){ 
+        .sigin-color-part{
+            background-color: #FEB8AA;
+            padding: 90px 0px ;
+        }
+        .sigin-title-part{
+   
+            text-align: center;
+            background-color: #fff;
+            border-radius: 30px;
+            margin-top: 115px;
+            padding: 29px 0px;
+        
+    }
+
+    input[type="email"] {
+        width: 80%;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    input[type="username"] {
+        width: 77%;
+        margin: 0px 0px 33px 0px;
+    }
+    input[type="password"] {
+        width: 91%;
+        margin: 26px 0px 0px 0px;
+    }
+    input#phonenumber {
+        width: 82%;
+        margin: 27px 0px 20px 0px;
+    }
+    .checbox2 {
+        width: 24%;
+        margin: 0px 0px 0px 48px;
+    }
+    .sigin-button-part button {
+       border-radius: 30px;
+       width: 82%;
+       text-align: center;
+       margin: 40px 0px 0px 0px;
+       padding: 15px 18px;
+       background: #ffff;
+   }
+   
+   button.login {
+       background: #fff;
+       padding: 14px 58px;
+       border-radius: 10px;
+       border: 2px solid #FEB8AA;
+       color: #FEB8AA;
+   
+       width: 43%;
+   }
+   
+   
+     button.up {
+        background: #FEB8AA;
+        color: #fff;
+        padding: 14px 50px;
+        border-radius: 10px;
+        border: none;
+        width: 37%;
+    
+    }
+    } */

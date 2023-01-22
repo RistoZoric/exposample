@@ -1,0 +1,500 @@
+section.AboutUSSlider {
+    width: 100%;
+    padding: 160px 0px 50px 0px;
+    background: url(../img/ABout.png);
+    background-size: cover;
+    z-index: -1;
+    background-position: 100%;
+}
+
+section.bgHero {
+    background: #FCFCFF;
+}
+.about1.col-lg-12.col-sm-12 h1 {
+    text-align: center;
+    font-size: 72px!important;
+    color: #ffff;
+    font-weight: normal!important;
+    font-family: 'canela';
+}
+.about1.col-lg-12.col-sm-12 h2 {
+    text-align: center;
+    font-size: 72px;
+    color: #fff;
+    font-family: 'canela';
+    font-weight: normal!important;
+}
+.about1.col-lg-12.col-sm-12 p {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.playbutton.col-lg-12.col-sm-12 {
+    text-align: center;
+}
+.downbtn2 {
+    padding-top: 100px;
+}
+.downbtn2 svg {
+    color: #80cae5;
+    font-size: 30px;
+    display: inline;
+}
+.downarrow.col-lg-12.col-sm-12 {
+    text-align: center;
+    padding-top: 70px;
+}
+.row.mission {
+    padding: 100px 0px 30px 0px;
+}
+
+.Mission1.col-lg-6.col-sm-12 h1 {
+    font-size: 72px;
+    color: #C1BFCB;
+    font-family: 'canela';
+    font-weight: bold;
+}
+.mission3 {
+    background: #fff;
+    margin-right: -100px;
+    z-index: 998;
+    position: relative;
+    padding: 50px 91px 50px 45px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px #0f11371a;
+    margin-left: 50px;
+}
+.mission3 p {
+    font-size: 22px;
+    color: #A3A3A4;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.Mission2.col-lg-6.col-sm-12 img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.row.whowe {
+    position: relative;
+    margin-top: 70px;
+}
+.whowe1.col-lg-4.col-sm-12 {
+    position: relative;
+    background: #FFB8AA;
+    height: 500px;
+}
+.whowe1.col-lg-4.col-sm-12 img {
+    width: 100%;
+
+    /* bottom: -50px; */
+    right: -50px;
+    position: absolute;
+    top: 50px;
+}
+.whowe2.col-lg-8.col-sm-12 {
+    padding: 50px 123px 0px 250px;
+}
+.whowe2.col-lg-8.col-sm-12 h1 {
+    color: #FFB8AA;
+    font-size: 72px;
+    font-family: "canela";
+    font-weight: bold!important;
+}
+.whowe2.col-lg-8.col-sm-12 p {
+    font-size: 24px;
+    color: #838383;
+    line-height: 40px;
+}
+.row.onlyFans {
+    margin-top: 120px;
+    padding: 60px 0px;
+}
+.row.onlyFans h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #838383;
+    padding-bottom: 40px;
+    font-family: 'canela';
+    font-weight: bold!important;
+    letter-spacing: 1px;
+}
+.onlyfans.col-lg-3.col-sm-12 {
+    background: #fff;
+    margin: 1%;
+    width: 23%;
+    padding: 0px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.onlyfans.col-lg-3.col-sm-12:hover p {
+    color: #fff;
+    
+}
+.onlyfans.col-lg-3.col-sm-12:hover h2 {
+    color: #fff;
+
+}
+.onlyfans.col-lg-3.col-sm-12:hover  {
+    background-color: #80CAE5;
+    color: #fff;
+    box-shadow: 0px 20px 40px #0f11371a;
+}
+.onlyfans.col-lg-3.col-sm-12:hover  h3 {
+    color: #fff;
+}
+.onlyfans.col-lg-3.col-sm-12 h2 {
+    font-size: 14px;
+    padding-top: 15px;
+    font-family: raleway;
+    color: #556C81;
+}
+.onlyfans.col-lg-3.col-sm-12 h3 {
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: #B6C4D1;
+    font-family: 'Raleway';
+}
+.onlyfans.col-lg-3.col-sm-12  p {
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6F8BA4;
+}
+.image1 {
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+}
+.social {
+    text-align: center;
+    padding: 15px 0px;
+}
+/*------ -play button-------- */
+.view__body {
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5% 0%;
+    position: relative;
+    border-radius: 20px;
+    background-size: cover;
+  }
+  .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 8px 16px -8px rgb(15 15 15 / 10%);
+    border-radius: 50%;
+    border: none;
+    background: #80CAE5;
+}
+a.popup-youtube {
+    color: #fff;
+}
+.view__body svg {
+    font-size: 25px;
+    color: #fff;
+    display: inline;
+}
+section.Aboutmain {
+    background: #F3F6F9;
+}
+/*------ -play button-------- */
+
+/* / Account Page DEACTIVATE BUTTON OPTION / */
+#Deactivate {
+    cursor: pointer;
+}
+.cover_deactivate {
+    padding: 40px;
+    border-radius: 24px;
+    /* box-shadow: 0px 16px 64px -24px rgb(31 47 70 / 40%);
+    background: #fff; */
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+/* .main_des{
+    background-color: rgba(0, 0, 0, 0.4);
+} */
+
+
+.are_you_sure_Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* user login header css */
+.userLogin {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+  }
+  
+  .inner_userLogin {
+    width: 50%;
+
+    position: absolute;
+    top: 20%;
+    border-radius: 20px;
+    left: 24%;
+    right: 0;
+  }
+  
+  .userLogin_header {
+    text-align: right;
+  }
+  
+  .userLogin_header button {
+    color: #ffffff;
+    background: #000;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.6s;
+}
+  
+  .userLogin_header button:hover {
+    box-shadow: -1px 3px 8px -2px #2e2e2e;
+  }
+  
+  .popup_content {
+    text-align: center;
+  }
+  
+  .top_title h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: -.01em;
+  }
+  
+  .top_pehra p {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #777E90;
+  }
+  
+  .continue_viaEmail p {
+    color: #777e90;
+    font-size: 12px;
+    padding: 30px 0px;
+  }
+  
+  .login__btns svg {
+    font-size: 15px;
+    margin-right: 15px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .inner_userLogin {
+      width: 80%;
+      left: 8%;
+    }
+  
+    .top_pehra p {
+      font-size: 14px;
+    }
+  
+    .top_title h1 {
+      font-size: 30px;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 767px) and (max-width:1200px) {
+    .inner_userLogin {
+      width: 60%;
+      left: 20%;
+    }
+  }
+
+
+/*----------------- media querry------------------ */
+/* ------------mobiles---------- */
+@media only screen and (max-width: 480px) {
+    .about1.col-lg-12.col-sm-12 p {
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+    .about1.col-lg-12.col-sm-12 h1{
+        font-size: 30px!important;
+    }
+    .about1.col-lg-12.col-sm-12 h2{
+        font-size: 30px;
+    }
+    .mission3 {
+        width: 87%;
+        padding: 10px 20px;
+        bottom: -30px;
+        left: 41px;
+        margin-left: 0px;
+    }
+    .whowe1.col-lg-4.col-sm-12 {
+        position: relative;
+        background: #FFB8AA;
+        height: 300px;
+        width: 80%;
+        margin-bottom: 110px;
+    }
+    .whowe1.col-lg-4.col-sm-12 img {
+        right: 0px;
+        bottom: -30px;
+        margin-right: -40px !important;
+    }
+    .mission3 p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .Mission2.col-lg-6.col-sm-12 img {
+        width: 100%;
+        height: 320px;
+    }
+    .Mission1.col-lg-6.col-sm-12 h1{
+        font-size: 40px;
+    }
+    .whowe2.col-lg-8.col-sm-12 {
+        padding: 0px 50px;
+        margin-top: 20px;
+    }
+    .onlyfans.col-lg-3.col-sm-12 {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .whowe2.col-lg-8.col-sm-12 h1{
+        font-size: 40px;
+    }
+    .whowe2.col-lg-8.col-sm-12 p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+        
+    .row.onlyFans {
+        margin-top: 70px;
+        padding: 40px 42px;
+    }
+    .whowe1.col-lg-4.col-sm-12 img {
+        width: 90%;
+        bottom: -107px;
+        margin-right: 0px !important;
+        right: -30px;
+    }
+    .play{
+        width: 60px;
+        height: 60px;
+    }
+    .view__body svg{
+        font-size: 15px;
+    }
+
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .mission3 {
+        margin-right: 0px;
+        padding: 0px;
+        bottom: -50px;
+        width: 87%;
+        padding: 10px 10px;
+        right: -65px;
+    }
+    .mission3 p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .Mission2.col-lg-6.col-sm-12 img {
+        width: 100%;
+    }
+    .whowe1.col-lg-4.col-sm-12 img{
+    margin-right: -100px !important;
+    width: 84%;
+    right: 150px;
+}
+.whowe2.col-lg-8.col-sm-12{
+        padding: 10px 49px;
+        margin-top: 100px;
+}
+    /* .whowe1.col-lg-4.col-sm-12 {
+        margin-bottom: 200px;
+        height: 325px;
+    }
+    .whowe1.col-lg-4.col-sm-12 img{
+    width: 85%;
+    bottom: -200px;
+    margin-right: 50px !important;
+}
+        
+    .whowe2.col-lg-8.col-sm-12{
+        padding: 20px 65px;
+    } */
+    .row.onlyFans {
+        padding: 10px 40px;
+    }
+    .onlyfans.col-lg-3.col-sm-12{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+/* --------tablet--------- */
+@media only screen and (min-width: 768px)  and (max-width:1024px){ 
+
+    .whowe1.col-lg-4.col-sm-12 img {
+        right: 0px;
+        width: 60%;
+        margin-right: 170px !important;
+        bottom: -140px;
+    }
+    .whowe2.col-lg-8.col-sm-12 {
+        padding: 10px 226px;
+        margin-top: 165px;
+    }
+    .onlyfans.col-lg-3.col-sm-12 {
+        width: 47%;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  
+{ 
+    .whowe2.col-lg-8.col-sm-12 {
+        padding-right: 34px;
+        padding-left: 226px;
+        padding-top: 15px;
+    }
+    .Mission2.col-lg-6.col-sm-12 img {
+        width: 100%;
+        height: 520px;
+    }
+    .whowe1.col-lg-4.col-sm-12 {
+        height: 500px;
+    }
+} 
+/*----------------- media querry------------------ */
+@media screen and (min-width: 1450px){
+    .whowe1.col-lg-4.col-sm-12{
+height: 800px;
+    }
+}

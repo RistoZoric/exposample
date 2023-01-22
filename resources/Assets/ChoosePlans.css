@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: canelaRegular;
+  src: url(../img/CANELA-REGULAR.TTF);
+}
+@font-face {
+  font-family: canelaBold;
+  src: url(../img/CANELA-BOLD.TTF);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: canelaBold
+}
+.choose_YourPlanSec {
+  padding: 130px 10px 0px 10px;
+  background: linear-gradient(#F6F6F8 8%,#EEEEEE 0) no-repeat;
+}
+.choose_YourPlanSec .container{
+  max-width: 1270px;
+  margin: auto;
+}
+.choose_YourPlanSec .choose_YourHead{
+  text-align: center;
+}
+.choose_YourPlanSec .choose_YourHead h2{
+  font-size: 68px;
+  margin-bottom: 15px;
+  color: #333333;
+}
+.choose_YourPlanSec .choose_YourHead p{
+  color: #838383;
+  font-weight: 500;
+  font-size: 22px;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody{
+  padding: 30px 0px;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .css-ahj2mt-MuiTypography-root{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner{
+  width: 50%;
+  padding: 30px 0px;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 25px 40px;
+  border-radius: 20px;
+  border: 1px solid #80CAE5;
+  cursor: pointer;
+  margin: 25px 0px;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div{
+  display: flex;
+  align-items: center;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: #333333;
+  margin: 0;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div i{
+  color: transparent;
+  background: transparent;
+  border: 2px solid #838383;
+  border-radius: 50px;
+  font-size: 22px;
+  margin-right: 20px;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span{
+  position: relative;
+  top: 5px;
+  font-size: 14px;
+  left: 5px;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.innerLabel30{
+  background: #FECFC5;
+  color: red;
+  margin-right: 40px;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.year_label2{
+  margin-right: 20px !important;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.year_label1{
+  margin-right: 20px !important;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.innerLabel30{
+  background: #FECFC5;
+  color: red;
+  margin-right: 40px;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.innerLabel20{
+  background: #6DD400;
+  color: #fff;
+  margin-right: 40px;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span.year_label1{
+  margin-right: 20px !important;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span.year_label2{
+  margin-right: 20px !important;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span.innerLabel30{
+  background: #FECFC5;
+  color: red;
+  margin-right: 40px;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourBack{
+  margin-top: 80px;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourBack p{
+  color: #838383;
+  cursor: pointer;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourBack p i{
+  margin-right: 7px;
+}
+/*uyhiyhvbuyby*/
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #80CAE5;
+  padding: 25px 40px;
+  border-radius: 20px;
+  border: 1px solid #80CAE5;
+  cursor: pointer;
+  margin: 25px 0px;
+  box-shadow: 0px 15px 25px 5px rgba(0,0,0,0.2);
+}
+/*uyfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfvfv*/
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activateds{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #80CAE5;
+  padding: 25px 40px;
+  border-radius: 20px;
+  border: 1px solid #80CAE5;
+  cursor: pointer;
+  margin: 25px 0px;
+  box-shadow: 0px 15px 25px 5px rgba(0,0,0,0.2);
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 25px 40px;
+  border-radius: 20px;
+  border: 1px solid #80CAE5;
+  cursor: pointer;
+  margin: 25px 0px;
+}
+/*ibupphuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu*/
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div{
+  display: flex;
+  align-items: center;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: #fff;
+  margin: 0;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div i{
+  color: #fff;
+  background: #80CAE5;
+  border: 0px solid #fff;
+  border-radius: 50px;
+  font-size: 28px;
+  margin-right: 20px;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span{
+  position: relative;
+  top: 5px;
+  font-size: 14px;
+  left: 5px;
+  color: #fff;
+}
+.choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span.innerLabel20{
+  background: #6DD400;
+  color: #fff;
+  margin-right: 40px;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*wecfwecfw*/
+.choose_YourPackDetails{
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #80CAE5;
+  margin: 25px 40px;
+  display: none;
+}
+.choose_YourInnerHead{
+  background: #80CAE5;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  border-radius: 20px 20px 0px 0px;
+}
+.choose_YourInnerHead p{
+  color: #fff;
+  font-weight: 600;
+  margin-top: 5px;
+  margin: 5px 0px 0px 0px;
+}
+.choose_YourInnerHead h3{
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  margin: 0;
+}
+.choose_YourInnerBody{
+  padding: 20px 80px;
+}
+
+.choose_YourInnerBody ul{
+  list-style: none;
+  padding: 0px;
+}
+.choose_YourInnerBody ul li{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+.choose_YourInnerBody ul li i{
+  color: #80CAE5;
+  font-size: 22px;
+}
+.choose_YourInnerBody ul li.disabled{
+  color: #A7A7A7;
+}
+.choose_YourInnerBody ul li.disabled i{
+  color: #A7A7A7;
+}
+/*xsxasxasx*/
+.packactivated1{
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #80CAE5;
+  margin: 25px 40px;
+  display: block;
+}
+.packactivated2{
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #80CAE5;
+  margin: 25px 40px;
+  display: block;
+}
+.packactivated3{
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #80CAE5;
+  margin: 25px 40px;
+  display: block;
+}
+
+/*sxcamsc*/
+.choose_YourPackButton{
+  text-align: right;
+  padding: 10px 40px;
+}
+.choose_YourPackButton button{
+  background: #FEB8AA;
+  border-radius: 10px;
+  font-weight: 800;
+  padding: 15px 50px;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.choose_YourPlanBody .bc_inner p{
+  display: none;
+  margin: 0px;
+}
+.choose_YourPlanBody .bc_inner h6{
+  margin-bottom: 0px;
+  margin-left: 10px;
+  color: #0C2461;
+  font-family: 'Raleway';
+  font-weight: 700;
+} 
+.choose_YourPlanBody .bc_inner{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 5px;
+}
+.ToggleSwitch {
+  background: #80CAE5;
+  border: none;
+  height: 2em;
+  width: 4.5em;
+  padding: 2px;
+  border-radius: 50px;
+}
+.ToggleSwitch .knob {
+  position: relative;
+  width: 1.8em;
+  height: 1.8em;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  left: 0em;
+  transition: left 0.3s ease-out;
+  float: left;
+}
+.ToggleSwitch .knob.active {
+  left: 2.4em;
+}
+.ToggleSwitch h6{
+  display: flex;
+  margin-left: 90px;
+}
+@media screen and (min-width: 900px) and (max-width: 1300px){
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div h3{
+    font-size: 20px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div i{
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span{
+    font-size: 12px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.innerLabel30{
+    padding: 6px 15px;                                                                                   
+    font-size: 12px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.innerLabel20{
+    margin-right: 30px;
+    padding: 6px 15px;
+    font-size: 12px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span.innerLabel30{
+    padding: 6px 15px;
+    font-size: 12px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourBack{
+    margin-top: 80px;
+  }
+  /*uyhiyhvbuyby*/
+
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div h3{
+    font-size: 20px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div i{
+    font-size: 22px;
+    margin-right: 20px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span{
+    font-size: 12px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span.innerLabel20{
+    margin-right: 30px;
+    padding: 6px 15px;
+    font-size: 12px;
+  }
+  .choose_YourPackDetails{
+    margin: 25px 30px;
+  }
+  .choose_YourInnerHead{
+    padding: 20px 60px;
+  }
+  .choose_YourInnerHead h3{
+    font-size: 22px;
+  }
+  .choose_YourInnerBody{
+    padding: 20px 60px;
+  }
+  .choose_YourInnerBody ul li{
+    margin: 25px 0px;
+  }
+  .choose_YourInnerBody ul li i{
+    font-size: 18px;
+  }
+  .packactivated1{
+    margin: 25px 30px;
+  }
+  .packactivated2{
+    margin: 25px 30px;
+  }
+  .packactivated3{
+    margin: 25px 30px;
+  }
+  .choose_YourPackButton button{
+    padding: 12px 40px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 900px){
+  
+  .choose_YourPlanSec .choose_YourHead h2{
+    font-size: 48px;
+  }
+  .choose_YourPlanSec .choose_YourHead p{
+    font-size: 16px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex{
+    flex-direction: column;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner{
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div h3{
+    font-size: 16px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div i{
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span{
+    font-size: 12px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.innerLabel30{
+    padding: 6px 15px;
+    font-size: 12px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.innerLabel20{
+    padding: 6px 15px;
+    font-size: 12px;
+    margin-right: 30px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span.innerLabel30{
+    padding: 6px 15px;
+    font-size: 12px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourBack{
+    display: none;
+  }
+  /*uyhiyhvbuyby*/
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div h3{
+    font-size: 16px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div i{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span{
+    font-size: 12px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span.innerLabel20{
+    padding: 6px 15px;
+    font-size: 12px;
+    margin-right: 30px;
+  }
+  /*wecfwecfw*/
+  .choose_YourPackDetails{
+    margin: 10px 0px 25px 0px;
+  }
+  .choose_YourInnerHead{
+    padding: 20px 50px;
+  }
+  .choose_YourInnerHead h3{
+    font-size: 20px;
+  }
+  .choose_YourInnerBody{
+    padding: 20px 50px;
+  }
+  .choose_YourInnerBody ul li{
+    margin: 25px 0px;
+  }
+  .choose_YourInnerBody ul li i{
+    font-size: 20px;
+  }
+
+  /*xsxasxasx*/
+  .packactivated1{
+    margin: 10px 0px 25px 0px;
+  }
+  .packactivated2{
+    margin: 10px 0px 25px 0px;
+  }
+  .packactivated3{
+    margin: 10px 0px 25px 0px;
+  }
+  
+  /*sxcamsc*/
+  .choose_YourPackButton{
+    text-align: right;
+    padding: 10px;
+  }
+  .choose_YourPackButton button{
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+  .choose_YourPlanBody .bc_inner p{
+    color: #838383;
+    cursor: pointer;
+    display: block;
+  }
+  .choose_YourPlanBody .bc_inner p i{
+    margin-right: 7px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio{
+    padding: 15px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated{
+    padding: 15px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.innerLabel20{
+    margin-right: 20px;
+    padding: 5px 8px;
+    font-size: 10px;
+    margin-top: -5px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span.innerLabel30{
+    margin-right: 20px;
+    padding: 5px 8px;
+    font-size: 10px;
+    margin-top: -5px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .choose_YourFlexRadio div span.innerLabel30{
+    margin-right: 20px;
+    border-radius: 50px;
+    padding: 5px 8px;
+    font-size: 10px;
+    margin-top: -5px;
+  }
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner .activated div span.innerLabel20{
+    margin-right: 20px;
+    padding: 5px 8px;
+    font-size: 10px;
+    margin-top: -5px;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 892px){
+  .choose_YourPlanSec .container .choose_YourPlanBody .choose_YourFlex .choose_YourFlexInner{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

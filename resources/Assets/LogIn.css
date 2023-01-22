@@ -1,0 +1,272 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: canelaRegular;
+  src: url(../img/CANELA-REGULAR.TTF);
+}
+@font-face {
+  font-family: canelaBold;
+  src: url(../img/CANELA-BOLD.TTF);
+}
+.login-color-part{
+    background-color: #FEB8AA;
+    padding: 90px 0px ;
+    height: 700px;
+    
+   
+} */
+/* .login-title-part{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 90px;
+    margin-top: 115px;
+    padding: 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.login-title-part h1 {
+color: #FEB8AA;
+margin-top: 81px;
+font-size: 39px;
+}
+.login-title-part p{
+color: #9B9CA4;
+}
+input[type="Email2"] {
+width: 50%;
+padding: 0px 12px;
+border: none;
+border-bottom: 2px solid #E9E9F0;
+outline: none;
+margin: 59px 0px 10px 0px;
+font-size: 22px;
+}
+input[type="Password"]  {
+width: 50%;
+padding: 0px 12px;
+border: none;
+border-bottom: 2px solid #E9E9F0;
+outline: none;
+margin: 34px 0px 41px 0px;
+font-size: 22px;
+}
+.checbox-part {
+width: 38%;
+}
+.checbox-flex {
+display: flex;
+justify-content: center;
+}
+input#vehicle1 {
+margin-right: 10px;
+
+}
+.incon-part icon{
+color: #1166C2;
+margin-right: 20px;
+
+}
+
+.incon-part button {
+color: #5D6B83;
+border: 2px solid #9B9CA4;
+border-radius: 30px;
+width: 50%;
+text-align: center;
+margin: 16px 342px;
+padding: 15px 18px;
+font-size: 22px;
+background: #fff;
+}
+button.log {
+background-color: #FEB8AA;
+background: #FEB8AA;
+color: #fff;
+padding: 10px 50px;
+border-radius: 25px;
+border: none;
+width: 24%;
+margin-right: 30px;
+font-size: 24px;
+}
+button.sigup {
+background: #fff;
+color: #FEB8AA;
+padding: 8px 50px;
+border-radius: 25px;
+border: none;
+width: 24%;
+border: 2px solid #FEB8AA;
+font-size: 24px;
+}
+
+
+.button-part-start{
+    margin-top: 30px;
+}
+@media only screen and (max-width: 767px) { 
+    .sigin-color-part{
+        background-color: #FEB8AA;
+        padding: 90px 0px ;
+     
+    }
+    .sigin-title-part{
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        margin-top: 115px;
+        padding: 29px 0px;
+    
+}
+.checbox-part {
+    width: 58%;
+}
+
+.checbox-flex {
+    display: flex;
+    width: 101%;
+}
+
+input[type="Email2"] {
+    width: 90%;
+    padding: 0px 12px;
+    border: none;
+    border-bottom: 2px solid #E9E9F0;
+    outline: none;
+    margin:28px 0px 0px 0px;
+    font-size: 22px;
+} */
+    /* input[type="password"] {
+        width: 90%;
+        padding: 0px 12px;
+        border: none;
+        border-bottom: 2px solid #E9E9F0;
+        outline: none;
+        margin: 29px 0px 41px 0px;
+        font-size: 22px;
+    } */
+    /* .incon-part button {
+        color: #5D6B83;
+        border: 2px solid #9B9CA4;
+        border-radius: 30px;
+        width: 89%;
+        text-align: center;
+        margin: 26px 0px 0px 0px;
+        padding: 9px 18px;
+        font-size: 22px;
+        background: #fff;
+    }
+ 
+    button.log {
+        background-color: #FEB8AA;
+        background: #FEB8AA;
+        color: #fff;
+        padding: 10px 50px;
+        border-radius: 25px;
+        border: none;
+        width: 91%;
+        font-size: 24px;
+        margin: 0px 0px 0px 10px;
+    }
+    button.sigup {
+        background: #fff;
+        color: #FEB8AA;
+        padding: 8px 50px;
+        border-radius: 25px;
+        border: none;
+        width: 91%;
+        border: 2px solid #FEB8AA;
+        font-size: 24px;
+        margin: 21px 0px 0px 15px;
+    }
+    .button-part-start {
+        margin-top: 30px;
+        display: grid;
+    }
+    
+} */
+/* //Tablet// */
+/* @media only screen and (min-width: 768px)  and (max-width:1000px){ 
+    .sigin-color-part{
+        background-color: #FEB8AA;
+        padding: 90px 0px ;
+    }
+    .sigin-title-part{
+
+        text-align: center;
+        background-color: #fff;
+        border-radius: 30px;
+        margin-top: 115px;
+        padding: 29px 0px;
+    
+}
+input#Email {
+    width: 98%;
+    padding: 0px 12px;
+    border: none;
+    border-bottom: 2px solid #E9E9F0;
+    outline: none;
+    margin: 32px 0px;
+    font-size: 22px;
+}
+input#Email {
+    width: 98%;
+    padding: 0px 12px;
+    border: none;
+    border-bottom: 2px solid #E9E9F0;
+    outline: none;
+    margin: 32px 0px;
+    font-size: 22px;
+} */
+/* .checbox2 {
+    width: 20%;
+    margin: 0px 0px;
+
+} */
+/* .incon-part {
+    color: #B4BAC6;
+    border: 2px solid #9B9CA4;
+    border-radius: 30px;
+    width: 80%;
+    text-align: center;
+    margin: 31px 50px;
+    padding: 15px 18px;
+    font-size: 22px;
+} */
+/* button.login {
+    background: #fff;
+     padding: 14px 58px;
+     border-radius: 10px;
+     border: 2px solid #FEB8AA;
+     color: #FEB8AA;
+     margin-right: 34px;
+     width: 42%;
+ } */
+ /* button.up {
+    background: #FEB8AA;
+    color: #fff;
+    padding: 14px 50px;
+    border-radius: 10px;
+    border: none;
+    width: 43%;
+
+} */
+/* } */
+
+
+
+
+
+
+
+
+/* /Login page/ */
+/* .checbox-part2 {
+width: 37%;
+}
+label.pass {
+    float: right;
+    margin-left: 20px;
+    color: #B2B3B9;
+    font-size: 22px;
+} */

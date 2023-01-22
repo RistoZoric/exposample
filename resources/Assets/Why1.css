@@ -1,0 +1,405 @@
+section.Why1slider {
+    width: 100%;
+    padding: 173px 0px 50px 0px;
+    /* background: url(../img/Why1.png); */
+    background: linear-gradient(to right, rgba(255, 184, 170, 1) 50%, rgba(255, 184, 170, 0.05) 86%),url(../img/Why1.png) no-repeat left 300px center;
+    background-size: cover;
+    z-index: -1;
+
+}
+.downbtn {
+    text-align: center;
+    margin-top: 100px;
+}
+.downbtn svg {
+    color: #fff;
+    font-size: 30px;
+    display: inline
+}
+h1{
+    font-family: 'canela';
+    font-weight: bold!important;
+}
+.Why1.col-lg-12.col-sm-12 h1 {
+    text-align: center;
+    font-size: 72px!important;
+    color: #333333;
+}
+.Why1.col-lg-12.col-sm-12 p {
+    text-align: center;
+    font-size: 20px;
+}
+.searchWhy1 {
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    width: 50%;
+    background: #F8ECE7;
+    padding: 15px 10px;
+    border-radius: 15px;
+}
+.searchWhy1 input#search {
+    width: 72%;
+    color: #7e7b7b;
+    padding: 12px 5px;
+    border: 1px solid #DADADA;
+    outline: none;
+    padding-left: 15px;
+    border-radius: 3px;
+}
+.searchWhy1 a {
+    padding: 16px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 15px;
+    border-radius: 10px;
+    background: #FFB8AA;
+}
+section.why12 {
+    padding: 50px 0px;
+    background: #F4F4F4;
+}
+
+.threetrack.col-lg-4.col-sm-12 {
+    padding: 10px 40px;
+}
+.threetrack.col-lg-4.col-sm-12 h1 {
+    color: #333333;
+    font-family: raleway;
+    font-size: 72px;
+    font-weight: bold;
+}
+.threetrack.col-lg-4.col-sm-12 h2 {
+    font-size: 24px;
+    font-family: raleway;
+    font-weight: bold;
+}
+.threetrack.col-lg-4.col-sm-12 p {
+    color: #999999;
+    font-size: 15px;
+}
+section.why123 {
+    background: #F3F1F8;
+    padding: 40px 0px;
+}
+.whyprivy.col-lg-8.col-sm-12 {
+    padding: 110px 120px 0px 100px;
+}
+.whyprivy.col-lg-8.col-sm-12 p {
+    font-size: 18px;
+    color: #6D7783;
+    padding: 25px 0px;
+}
+.whyprivy.col-lg-4.col-sm-12 img {
+    width: 100%;
+    margin-top: -70px;
+}
+.whyprivy.col-lg-4.col-sm-12 {
+    margin-left: -90px;
+}
+.trustbtn {
+    border: 2px solid #ffb8aa;
+    padding: 15px 0px;
+    width: 50%;
+    text-align: center;
+}
+.trustbtn a {
+    color: #FFB8AA;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+section.getSeen {
+    padding: 100px 0px;
+}
+div#carouselExampleIndicators2 {
+    background: transparent;
+}
+.carousel-indicators2 {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+  }
+  
+.carousel-indicators2 [data-bs-target] {
+    background-color: #006e85 !important;
+  }
+.why1heading {
+    width: 50%;
+    float: right;
+}
+.carousel-inner2 {
+    padding: 10px 125px;
+}
+img.rectangleimg {
+    z-index: -1;
+    width: 45% !important;
+    display: inline-block;
+}
+.why1heading h1 {
+    font-size: 72px;
+    color: #333;
+    padding-bottom: 70px;
+    padding-top: 25px;
+    margin-left: -100px;
+    z-index: 9999;
+    position: relative;
+}
+.why1heading  p {
+    font-size: 20px;
+    color: #333333;
+    max-width: 400px;
+} 
+.plansbtn {
+    width: 38%;
+    background: #80CAE5;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 10px;
+    margin-top: 90px;
+  transition: 0.5s;
+}
+.plansbtn:hover{
+    transform: translate(0px, -5px);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  }
+.plansbtn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*----------------- media querry------------------ */
+/* ------------mobiles---------- */
+@media only screen and (max-width: 480px) {
+    img.rectangleimg {
+        width: 90% !important;
+    }
+    section.Why1slider {
+        background: linear-gradient(to right, rgba(255, 184, 170, 1) 10%, rgba(255, 184, 170, 0.05) 110%),url(../img/blackman.jpg) no-repeat left center;
+    }
+   
+    .whyprivy.col-lg-4.col-sm-12{
+        margin-left: 0px;
+    }
+    .whyprivy.col-lg-8.col-sm-12 {
+        padding: 0px 20px;
+    }
+    .whyprivy.col-lg-4.col-sm-12 img {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .carousel-inner2{
+        padding: 0px;
+    }
+    .why1heading {
+        width: 100%;
+        padding: 5px 15px;
+    }
+    img.rectangleimg {
+        width: 100%;
+    }
+    .why1heading h1 {
+        font-size: 51px;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
+    .why1heading p{
+        font-size: 17px;
+    }
+    .plansbtn {
+        margin-left: 70px;
+        width: 60%;
+    }
+    .trustbtn{
+        width: 100%;
+    }
+    .Why1.col-lg-12.col-sm-12 h1{
+        font-size: 30px!important;
+    }
+    .Why1.col-lg-12.col-sm-12 p{
+        font-size: 17px;
+    }
+
+    .searchWhy1 {
+        width: 97%;
+        max-width: 97%;
+        padding: 10px 0px;
+        border-radius: 30px;
+    }
+    .why1heading h1{
+        margin: 0px !important;
+    }
+    .searchWhy1 input#search {
+        width: 50%;
+        padding: 5px 0px;
+    }
+    .searchWhy1 a {
+        padding: 10px 35px;
+    }
+    section.getSeen .carousel-indicators {
+        top: auto !important;
+        left: 0px !important;
+        bottom: -56px !important;
+        flex-direction: row !important;
+    }
+    section.getSeen .carousel-indicators [data-bs-target]{
+        margin: 8px !important;
+    }
+   
+}
+section.getSeen .carousel-indicators [data-bs-target] {
+    background-color: #9B9B9B !important;
+    border-radius: 8px;
+    height: 8px;
+    width: 8px;
+    border: none;
+    margin: 10px 0px;
+}
+section.getSeen .carousel-indicators {
+    position: absolute;
+    right: 0;
+    left: -130px;
+    top: 0;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+    flex-direction: column;
+}
+
+ 
+/* ------------tablet---------- */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    section.getSeen .carousel-indicators {
+        bottom: 10px;
+        left: 0;
+        flex-direction: row;
+    }
+    .carousel-inner2 {
+        padding: 0px 15px;
+    }
+    .why1heading {
+        width: 100%;
+        
+    }
+    .trustbtn{
+        width: 100%;
+    }
+    .plansbtn{
+        margin: auto;
+    }
+    section.Why1slider {
+        background-position: 75% 50%;
+    }
+    .Why1.col-lg-12.col-sm-12 h1{
+        font-size: 30px!important;
+    }
+    .Why1.col-lg-12.col-sm-12 p{
+        font-size: 17px;
+    }
+    .searchWhy1 {
+        width: 97%;
+        max-width: 97%;
+        padding: 10px 0px;
+        border-radius: 30px;
+    }
+    .searchWhy1 input#search {
+        width: 50%;
+        padding: 5px 0px;
+    }
+    .searchWhy1 a {
+        padding: 10px 35px;
+    }
+    section.getSeen .carousel-indicators {
+        top: auto !important;
+        left: 0px !important;
+        bottom: -56px !important;
+        flex-direction: row !important;
+    }
+    section.getSeen .carousel-indicators [data-bs-target]{
+        margin: 8px !important;
+    }
+    .why1heading h1{
+        margin: 0px !important;
+    }
+}
+/* ------------other devices---------- */
+@media only screen and (min-width: 768px)  and (max-width:1024px){
+    .carousel-inner2 {
+        padding: 0px 15px;
+    }
+    .why1heading {
+        width: 100%;
+        
+    }
+    .trustbtn{
+        width: 100%;
+    }
+    .plansbtn{
+        margin: auto;
+    }
+    section.Why1slider {
+        background-position: 75% 50%;
+    }
+    .Why1.col-lg-12.col-sm-12 h1{
+        font-size: 30px!important;
+    }
+    .Why1.col-lg-12.col-sm-12 p{
+        font-size: 17px;
+    }
+    .searchWhy1 {
+        width: 97%;
+        max-width: 97%;
+        padding: 10px 0px;
+        border-radius: 30px;
+    }
+    .searchWhy1 input#search {
+        width: 50%;
+        padding: 5px 0px;
+    }
+    .searchWhy1 a {
+        padding: 10px 35px;
+    }
+    
+    .why1heading h1{
+        margin: 0px !important;
+    }
+ }
+
+ @media only screen   
+ and (min-width: 1030px)   
+ and (max-width: 1366px)  
+ { 
+    .whyprivy.col-lg-4.col-sm-12 img {
+        width: 100%;
+    }
+    img.rectangleimg {
+        width: 50%;
+    }
+    .searchWhy1 input#search{
+        width: 50%;
+    }
+    .trustbtn{
+        width: 70%;
+    }
+    .why1heading h1 {
+        margin-left: -70px !important;
+    }
+ }

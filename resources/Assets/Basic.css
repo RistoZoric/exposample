@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: canelaRegular;
+  src: url(../img/CANELA-REGULAR.TTF);
+}
+@font-face {
+  font-family: canelaBold;
+  src: url(../img/CANELA-BOLD.TTF);
+}
+.color-part {
+  background: linear-gradient(#80CAE5 100%,transparent 0) no-repeat;
+  padding: 140px 0px 200px 0;
+}
+.plans-title-part{
+    text-align: center;
+}
+.plans-title-part h6{
+color: #fff;
+font-size: 22px;
+
+}
+.plans-title-part h2 {
+    color: #fff;
+    font-size: 48px;
+}
+.second-title-part {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: #EDF2F6;
+  border-radius: 30px;
+  margin-top: 125px;
+  box-shadow:10px 10px 20px 2px rgba(0,0,0,0.20);
+}
+.second-title-part h4 {
+  color: #80CAE5;
+  font-size: 30px;
+  padding-top: 40px;
+  font-family: 'Raleway';
+  font-weight: 400;
+}
+.second-title-part h1 {
+  color: #80CAE5;
+  font-size: 86px;
+  font-weight: 600;
+}
+  .second-title-part p{
+    position: relative;
+  }
+  .second-title-part p::after {
+    content: '';
+    background: #000;
+    position: absolute;
+    left: 25%;
+    bottom: -15px;
+    width: 50%;
+    height: 1px;
+}
+
+  .checkbox-part label {
+    color:#000;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 0px;
+  }
+.checkbox-part {
+  padding: 50px 0px;
+  padding: 50px 0px;
+  text-align: left;
+  max-width: 290px;
+  margin: auto;
+
+}
+.checkbox-part button {
+    background-color: #80CAE5;
+    border: none;
+    padding: 15px 80px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 38px 0px;
+}
+
+
+.checkbox-part icon{
+  color: #80CAE5;
+  margin-right: 10px;
+}
+@media screen and (max-width: 480px){
+  .second-title-part{
+    margin-top: 55px;
+  }
+  .color-part {
+    background: linear-gradient(#80CAE5 50%,transparent 0) no-repeat;
+
+}
+.checkbox-part label{
+    font-size: 14px;
+}
+  .plans-title-part h2 {
+    color: #fff;
+    font-size: 33px;
+}
+
+.second-title-part h1 {
+  color: #80CAE5;
+  font-size: 86px;
+  margin-top: 30px;
+}
+.second-title-part p {
+  position: relative;
+  font-size: 18px;
+  padding: 0px 0px 0px 0px;
+}
+.second-title-part p {
+    font-size: 14px;
+    padding: 0px 54px 20px 54px;
+    color: #171718;
+}
+.second-title-part p::after {
+  content: '';
+  background: #000;
+  position: absolute;
+  left: 19%;
+  bottom: -15px;
+  width: 63%;
+  height: 1px;
+}
+.checkbox-part {
+    padding: 30px 0px 30px 0px;
+    max-width: 463px;
+    margin-left: 56px;
+}
+}
+@media only screen and (min-width: 480px)and (max-width: 768px){ 
+  .color-part {
+    background: linear-gradient(#80CAE5 60%,transparent 0) no-repeat;
+
+}
+  .plans-title-part {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.second-title-part h1 {
+  color: #80CAE5;
+  font-size: 86px;
+  margin-top: 30px;
+}
+.second-title-part p {
+  position: relative;
+  font-size: 20px;
+  padding: 6px 69px 0px 73px;
+}
+.second-title-part p::after {
+  content: '';
+  background: #000;
+  position: absolute;
+  left: 17%;
+  bottom: -15px;
+  width: 63%;
+  height: 1px;
+}
+.checkbox-part {
+  padding: 50px 0px;
+  padding: 50px 0px;
+  max-width: 463px;
+  margin-left: 90px;
+}
+}

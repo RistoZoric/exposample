@@ -1,0 +1,110 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+ /* @font-face {
+   font-family: canelaRegular;
+   src: url(../img/CANELA-REGULAR.TTF);
+ }
+ @font-face {
+   font-family: canelaBold;
+   src: url(../img/CANELA-BOLD.TTF);
+ } */
+ .privacy-color-part {
+    padding: 90px 0px;
+    background: linear-gradient(#ffb8aa 10%,transparent 0) no-repeat;
+}
+ .privacy-title-part{
+     text-align: center;
+     background-color: #fff;
+     border-radius: 50px;
+     margin-top: 115px;
+     padding: 29px 0px;
+     box-shadow:10px 10px 20px 2px rgba(0,0,0,0.20);
+     }
+     .privacy-title-part h2 {
+          font-size: 60px;
+          font-weight: bold!important;
+          background: linear-gradient(to right, #ffb8aa 35%, #46b2d9);
+         -webkit-text-fill-color: transparent;
+         -webkit-background-clip: text;
+         font-family: 'canela';
+         position: relative;
+     }
+     .privacy-title-part h2::after {
+        content: '';
+        height: 6px;
+        width: 26px;
+        position: absolute;
+        background-color: #FFB8AA;
+        bottom: -10px;
+        left: 49%;
+    }
+     .privacy-title-part h6{
+         float: left;
+     }
+     .privacy-title-part p {
+         font-size: 18px;
+         margin-top: 20px;
+     }
+     .Privacy-next-title-part a {
+         color: black;
+         font-size: 18px;
+     }
+     .Privacy-next-title-part {
+         text-align: left;
+     }
+     .Privacy-next-title-part {
+     padding: 40px 63px;
+     }
+     .Privacy-next-title-part p {
+         overflow-wrap: anywhere;
+     }
+     @media screen and (max-width: 480px) {
+         /* .container {
+             width: 100% !important;
+         } */
+         .Privacy-next-title-part a {
+            padding: 0px;
+
+        }
+        /* strong {
+            padding: 10px 10px;
+            font-size: 13px;
+        } */
+         .privacy-color-part{
+             background-color: #FEB8AA;
+             padding: 90px 0px ;
+            
+         }
+         .privacy-title-part h2 {
+             font-size: 40px;
+         }
+         .Privacy-next-title-part {
+             padding: 0px 20px;
+         }
+         .privacy-title-part h6{
+             float: left;
+         }
+             .Privacy-next-title-part p {
+                 font-size: 16px;
+                 padding: 0px 0px;
+             }
+         
+     }
+     @media screen and (min-width:481px) and (max-width:767px) {
+         /* .container {
+             width: 100% !important;
+         } */
+         .privacy-color-part{
+             background-color: #FEB8AA;
+             padding: 90px 0px ;
+
+           }
+           .privacy-title-part h2 {
+             font-size: 63px;
+         }
+        .Privacy-next-title-part p {
+         font-size: 20px;
+      
+     }
+     }
